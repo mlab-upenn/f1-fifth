@@ -1,0 +1,3 @@
+[submodule "src/f1tenth_system"]
+	path = src/f1tenth_system
+	url = https://github.com/mlab-upenn/f1-fifth/blob/main/src/f1tenth_system
