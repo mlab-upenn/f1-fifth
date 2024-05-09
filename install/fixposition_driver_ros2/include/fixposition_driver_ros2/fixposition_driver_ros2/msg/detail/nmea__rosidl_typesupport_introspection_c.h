@@ -1,0 +1,1 @@
+/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2/rosidl_typesupport_introspection_c/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_introspection_c.h

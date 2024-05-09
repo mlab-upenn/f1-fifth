@@ -1,0 +1,15 @@
+/home/nvidia/f1tenth_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/nvidia/f1tenth_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/environment/path.sh
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/environment/path.dsv
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/local_setup.bash
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/local_setup.sh
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/local_setup.zsh
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/local_setup.dsv
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/package.dsv
+/home/nvidia/f1tenth_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/nvidia/f1tenth_ws/install/vesc/share/vesc/package.xml

@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/nvidia/f1tenth_ws/build/teleop_tools_msgs/ament_cmake_python/teleop_tools_msgs/teleop_tools_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_teleop_tools_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_teleop_tools_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_teleop_tools_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

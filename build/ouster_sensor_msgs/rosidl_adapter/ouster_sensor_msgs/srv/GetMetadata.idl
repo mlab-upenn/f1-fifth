@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ouster_sensor_msgs/srv/GetMetadata.srv
+// generated code does not contain a copyright notice
+
+
+module ouster_sensor_msgs {
+  module srv {
+    struct GetMetadata_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetMetadata_Response {
+      string metadata;
+    };
+  };
+};

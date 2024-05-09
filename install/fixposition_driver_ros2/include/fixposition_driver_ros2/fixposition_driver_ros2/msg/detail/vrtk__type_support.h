@@ -1,0 +1,1 @@
+/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2/rosidl_generator_c/fixposition_driver_ros2/msg/detail/vrtk__type_support.h

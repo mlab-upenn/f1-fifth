@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ouster_sensor_msgs/msg/PacketMsg.msg
+// generated code does not contain a copyright notice
+
+
+module ouster_sensor_msgs {
+  module msg {
+    struct PacketMsg {
+      sequence<uint8> buf;
+    };
+  };
+};

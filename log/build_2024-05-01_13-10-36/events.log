@@ -1,0 +1,1298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000432] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000704] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001150] (-) JobUnselected: {'identifier': 'fixposition_odometry_converter_ros1'}
+[0.001404] (-) JobUnselected: {'identifier': 'fixposition_odometry_converter_ros2'}
+[0.001646] (-) JobUnselected: {'identifier': 'fpl2bag'}
+[0.001735] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001806] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001875] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001941] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002004] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002068] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002123] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002157] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002188] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002224] (fixposition_gnss_tf) JobQueued: {'identifier': 'fixposition_gnss_tf', 'dependencies': OrderedDict()}
+[0.002265] (fixposition_driver_lib) JobQueued: {'identifier': 'fixposition_driver_lib', 'dependencies': OrderedDict([('fixposition_gnss_tf', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf')])}
+[0.002389] (fixposition_driver_ros2) JobQueued: {'identifier': 'fixposition_driver_ros2', 'dependencies': OrderedDict([('fixposition_gnss_tf', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf'), ('fixposition_driver_lib', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib')])}
+[0.002457] (fixposition_gnss_tf) JobStarted: {'identifier': 'fixposition_gnss_tf'}
+[0.018175] (fixposition_gnss_tf) JobProgress: {'identifier': 'fixposition_gnss_tf', 'progress': 'cmake'}
+[0.018605] (fixposition_gnss_tf) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/fixposition_gnss_tf', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099423] (-) TimerEvent: {}
+[0.200116] (-) TimerEvent: {}
+[0.225551] (fixposition_gnss_tf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.251161] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300292] (-) TimerEvent: {}
+[0.401047] (-) TimerEvent: {}
+[0.420796] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.441770] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.443288] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.445505] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.475564] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.485317] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Generating done\n'}
+[0.487358] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf\n'}
+[0.494725] (fixposition_gnss_tf) CommandEnded: {'returncode': 0}
+[0.496113] (fixposition_gnss_tf) JobProgress: {'identifier': 'fixposition_gnss_tf', 'progress': 'build'}
+[0.498240] (fixposition_gnss_tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.501853] (-) TimerEvent: {}
+[0.598597] (fixposition_gnss_tf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o\x1b[0m\n'}
+[0.601977] (-) TimerEvent: {}
+[0.702507] (-) TimerEvent: {}
+[0.803328] (-) TimerEvent: {}
+[0.904230] (-) TimerEvent: {}
+[1.004930] (-) TimerEvent: {}
+[1.105860] (-) TimerEvent: {}
+[1.206563] (-) TimerEvent: {}
+[1.307235] (-) TimerEvent: {}
+[1.407923] (-) TimerEvent: {}
+[1.508628] (-) TimerEvent: {}
+[1.609298] (-) TimerEvent: {}
+[1.709961] (-) TimerEvent: {}
+[1.810639] (-) TimerEvent: {}
+[1.911309] (-) TimerEvent: {}
+[2.011983] (-) TimerEvent: {}
+[2.112710] (-) TimerEvent: {}
+[2.213379] (-) TimerEvent: {}
+[2.314049] (-) TimerEvent: {}
+[2.414702] (-) TimerEvent: {}
+[2.515328] (-) TimerEvent: {}
+[2.615894] (-) TimerEvent: {}
+[2.716467] (-) TimerEvent: {}
+[2.816982] (-) TimerEvent: {}
+[2.917513] (-) TimerEvent: {}
+[3.018121] (-) TimerEvent: {}
+[3.118720] (-) TimerEvent: {}
+[3.219343] (-) TimerEvent: {}
+[3.319996] (-) TimerEvent: {}
+[3.420700] (-) TimerEvent: {}
+[3.521380] (-) TimerEvent: {}
+[3.622061] (-) TimerEvent: {}
+[3.722745] (-) TimerEvent: {}
+[3.823423] (-) TimerEvent: {}
+[3.924091] (-) TimerEvent: {}
+[4.024804] (-) TimerEvent: {}
+[4.125478] (-) TimerEvent: {}
+[4.226138] (-) TimerEvent: {}
+[4.326796] (-) TimerEvent: {}
+[4.355056] (fixposition_gnss_tf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_gnss_tf.so\x1b[0m\n'}
+[4.426987] (-) TimerEvent: {}
+[4.452313] (fixposition_gnss_tf) StdoutLine: {'line': b'[100%] Built target fixposition_gnss_tf\n'}
+[4.477375] (fixposition_gnss_tf) CommandEnded: {'returncode': 0}
+[4.517992] (fixposition_gnss_tf) JobProgress: {'identifier': 'fixposition_gnss_tf', 'progress': 'install'}
+[4.527114] (-) TimerEvent: {}
+[4.538498] (fixposition_gnss_tf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.559471] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.559905] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include\n'}
+[4.560101] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf\n'}
+[4.560245] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf/gnss_tf.hpp\n'}
+[4.561030] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so\n'}
+[4.561822] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so\n'}
+[4.562146] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets.cmake\n'}
+[4.562488] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets-release.cmake\n'}
+[4.562795] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf\n'}
+[4.562987] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp\n'}
+[4.563162] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/share/fixposition_gnss_tf/package.xml\n'}
+[4.563414] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config.cmake\n'}
+[4.563687] (fixposition_gnss_tf) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config-version.cmake\n'}
+[4.567290] (fixposition_gnss_tf) CommandEnded: {'returncode': 0}
+[4.627471] (-) TimerEvent: {}
+[4.661616] (fixposition_gnss_tf) JobEnded: {'identifier': 'fixposition_gnss_tf', 'rc': 0}
+[4.664330] (fixposition_driver_lib) JobStarted: {'identifier': 'fixposition_driver_lib'}
+[4.678213] (fixposition_driver_lib) JobProgress: {'identifier': 'fixposition_driver_lib', 'progress': 'cmake'}
+[4.678737] (fixposition_driver_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_lib', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fixposition_driver_lib'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble')]), 'shell': False}
+[4.727686] (-) TimerEvent: {}
+[4.808029] (fixposition_driver_lib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.827055] (fixposition_driver_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.827750] (-) TimerEvent: {}
+[4.928314] (-) TimerEvent: {}
+[4.993850] (fixposition_driver_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.019096] (fixposition_driver_lib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.020092] (fixposition_driver_lib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.021669] (fixposition_driver_lib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.028428] (-) TimerEvent: {}
+[5.050954] (fixposition_driver_lib) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0")  \n'}
+[5.073337] (fixposition_driver_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.081442] (fixposition_driver_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[5.083044] (fixposition_driver_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/fixposition_driver_lib\n'}
+[5.089499] (fixposition_driver_lib) CommandEnded: {'returncode': 0}
+[5.091082] (fixposition_driver_lib) JobProgress: {'identifier': 'fixposition_driver_lib', 'progress': 'build'}
+[5.091811] (fixposition_driver_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble')]), 'shell': False}
+[5.128568] (-) TimerEvent: {}
+[5.188202] (fixposition_driver_lib) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/odometry.cpp.o\x1b[0m\n'}
+[5.188876] (fixposition_driver_lib) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/tf.cpp.o\x1b[0m\n'}
+[5.189086] (fixposition_driver_lib) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/imu.cpp.o\x1b[0m\n'}
+[5.189237] (fixposition_driver_lib) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/fixposition_driver.cpp.o\x1b[0m\n'}
+[5.189379] (fixposition_driver_lib) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/llh.cpp.o\x1b[0m\n'}
+[5.193268] (fixposition_driver_lib) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/helper.cpp.o\x1b[0m\n'}
+[5.228782] (-) TimerEvent: {}
+[5.329450] (-) TimerEvent: {}
+[5.430156] (-) TimerEvent: {}
+[5.530850] (-) TimerEvent: {}
+[5.631556] (-) TimerEvent: {}
+[5.732305] (-) TimerEvent: {}
+[5.833035] (-) TimerEvent: {}
+[5.933758] (-) TimerEvent: {}
+[6.034471] (-) TimerEvent: {}
+[6.135211] (-) TimerEvent: {}
+[6.235930] (-) TimerEvent: {}
+[6.336663] (-) TimerEvent: {}
+[6.437395] (-) TimerEvent: {}
+[6.538178] (-) TimerEvent: {}
+[6.638957] (-) TimerEvent: {}
+[6.739684] (-) TimerEvent: {}
+[6.840474] (-) TimerEvent: {}
+[6.941240] (-) TimerEvent: {}
+[7.042011] (-) TimerEvent: {}
+[7.142767] (-) TimerEvent: {}
+[7.243515] (-) TimerEvent: {}
+[7.344360] (-) TimerEvent: {}
+[7.445117] (-) TimerEvent: {}
+[7.545884] (-) TimerEvent: {}
+[7.646670] (-) TimerEvent: {}
+[7.747441] (-) TimerEvent: {}
+[7.848231] (-) TimerEvent: {}
+[7.949018] (-) TimerEvent: {}
+[8.049784] (-) TimerEvent: {}
+[8.150536] (-) TimerEvent: {}
+[8.251271] (-) TimerEvent: {}
+[8.351971] (-) TimerEvent: {}
+[8.452743] (-) TimerEvent: {}
+[8.553510] (-) TimerEvent: {}
+[8.654250] (-) TimerEvent: {}
+[8.755028] (-) TimerEvent: {}
+[8.855830] (-) TimerEvent: {}
+[8.956580] (-) TimerEvent: {}
+[9.057368] (-) TimerEvent: {}
+[9.160073] (-) TimerEvent: {}
+[9.260823] (-) TimerEvent: {}
+[9.361571] (-) TimerEvent: {}
+[9.462285] (-) TimerEvent: {}
+[9.563058] (-) TimerEvent: {}
+[9.663837] (-) TimerEvent: {}
+[9.764593] (-) TimerEvent: {}
+[9.865350] (-) TimerEvent: {}
+[9.966163] (-) TimerEvent: {}
+[10.066967] (-) TimerEvent: {}
+[10.167738] (-) TimerEvent: {}
+[10.268467] (-) TimerEvent: {}
+[10.369187] (-) TimerEvent: {}
+[10.469950] (-) TimerEvent: {}
+[10.570722] (-) TimerEvent: {}
+[10.671512] (-) TimerEvent: {}
+[10.772296] (-) TimerEvent: {}
+[10.873072] (-) TimerEvent: {}
+[10.973836] (-) TimerEvent: {}
+[11.074637] (-) TimerEvent: {}
+[11.175401] (-) TimerEvent: {}
+[11.276174] (-) TimerEvent: {}
+[11.376969] (-) TimerEvent: {}
+[11.477711] (-) TimerEvent: {}
+[11.578465] (-) TimerEvent: {}
+[11.679217] (-) TimerEvent: {}
+[11.779975] (-) TimerEvent: {}
+[11.880724] (-) TimerEvent: {}
+[11.981464] (-) TimerEvent: {}
+[12.082208] (-) TimerEvent: {}
+[12.182992] (-) TimerEvent: {}
+[12.283761] (-) TimerEvent: {}
+[12.384549] (-) TimerEvent: {}
+[12.485307] (-) TimerEvent: {}
+[12.586136] (-) TimerEvent: {}
+[12.686989] (-) TimerEvent: {}
+[12.787822] (-) TimerEvent: {}
+[12.888651] (-) TimerEvent: {}
+[12.989423] (-) TimerEvent: {}
+[13.090247] (-) TimerEvent: {}
+[13.191085] (-) TimerEvent: {}
+[13.291913] (-) TimerEvent: {}
+[13.392741] (-) TimerEvent: {}
+[13.493536] (-) TimerEvent: {}
+[13.594354] (-) TimerEvent: {}
+[13.695193] (-) TimerEvent: {}
+[13.723923] (fixposition_driver_lib) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/parser.cpp.o\x1b[0m\n'}
+[13.795428] (-) TimerEvent: {}
+[13.896222] (-) TimerEvent: {}
+[13.996991] (-) TimerEvent: {}
+[14.097742] (-) TimerEvent: {}
+[14.198450] (-) TimerEvent: {}
+[14.215903] (fixposition_driver_lib) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/gpgga.cpp.o\x1b[0m\n'}
+[14.298672] (-) TimerEvent: {}
+[14.399415] (-) TimerEvent: {}
+[14.500175] (-) TimerEvent: {}
+[14.600958] (-) TimerEvent: {}
+[14.685204] (fixposition_driver_lib) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/gpzda.cpp.o\x1b[0m\n'}
+[14.701176] (-) TimerEvent: {}
+[14.801928] (-) TimerEvent: {}
+[14.902718] (-) TimerEvent: {}
+[15.003491] (-) TimerEvent: {}
+[15.104299] (-) TimerEvent: {}
+[15.205082] (-) TimerEvent: {}
+[15.305809] (-) TimerEvent: {}
+[15.406575] (-) TimerEvent: {}
+[15.507352] (-) TimerEvent: {}
+[15.608114] (-) TimerEvent: {}
+[15.690537] (fixposition_driver_lib) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/gprmc.cpp.o\x1b[0m\n'}
+[15.708392] (-) TimerEvent: {}
+[15.809134] (-) TimerEvent: {}
+[15.909874] (-) TimerEvent: {}
+[16.010613] (-) TimerEvent: {}
+[16.111324] (-) TimerEvent: {}
+[16.212029] (-) TimerEvent: {}
+[16.312760] (-) TimerEvent: {}
+[16.413500] (-) TimerEvent: {}
+[16.514251] (-) TimerEvent: {}
+[16.614980] (-) TimerEvent: {}
+[16.715719] (-) TimerEvent: {}
+[16.816470] (-) TimerEvent: {}
+[16.917251] (-) TimerEvent: {}
+[17.018012] (-) TimerEvent: {}
+[17.118775] (-) TimerEvent: {}
+[17.219498] (-) TimerEvent: {}
+[17.320219] (-) TimerEvent: {}
+[17.420940] (-) TimerEvent: {}
+[17.521636] (-) TimerEvent: {}
+[17.622325] (-) TimerEvent: {}
+[17.723017] (-) TimerEvent: {}
+[17.823726] (-) TimerEvent: {}
+[17.924457] (-) TimerEvent: {}
+[18.025144] (-) TimerEvent: {}
+[18.125828] (-) TimerEvent: {}
+[18.226550] (-) TimerEvent: {}
+[18.327297] (-) TimerEvent: {}
+[18.428022] (-) TimerEvent: {}
+[18.528759] (-) TimerEvent: {}
+[18.629453] (-) TimerEvent: {}
+[18.730160] (-) TimerEvent: {}
+[18.830866] (-) TimerEvent: {}
+[18.931562] (-) TimerEvent: {}
+[19.032261] (-) TimerEvent: {}
+[19.133277] (-) TimerEvent: {}
+[19.234532] (-) TimerEvent: {}
+[19.335535] (-) TimerEvent: {}
+[19.436817] (-) TimerEvent: {}
+[19.537819] (-) TimerEvent: {}
+[19.638872] (-) TimerEvent: {}
+[19.739847] (-) TimerEvent: {}
+[19.840843] (-) TimerEvent: {}
+[19.941826] (-) TimerEvent: {}
+[20.042792] (-) TimerEvent: {}
+[20.143485] (-) TimerEvent: {}
+[20.244161] (-) TimerEvent: {}
+[20.344881] (-) TimerEvent: {}
+[20.445584] (-) TimerEvent: {}
+[20.546277] (-) TimerEvent: {}
+[20.646974] (-) TimerEvent: {}
+[20.747667] (-) TimerEvent: {}
+[20.848437] (-) TimerEvent: {}
+[20.949141] (-) TimerEvent: {}
+[21.049867] (-) TimerEvent: {}
+[21.150570] (-) TimerEvent: {}
+[21.251380] (-) TimerEvent: {}
+[21.352116] (-) TimerEvent: {}
+[21.452915] (-) TimerEvent: {}
+[21.553584] (-) TimerEvent: {}
+[21.654195] (-) TimerEvent: {}
+[21.754923] (-) TimerEvent: {}
+[21.855631] (-) TimerEvent: {}
+[21.956351] (-) TimerEvent: {}
+[22.057088] (-) TimerEvent: {}
+[22.157782] (-) TimerEvent: {}
+[22.258466] (-) TimerEvent: {}
+[22.359199] (-) TimerEvent: {}
+[22.460256] (-) TimerEvent: {}
+[22.561590] (-) TimerEvent: {}
+[22.663094] (-) TimerEvent: {}
+[22.764077] (-) TimerEvent: {}
+[22.865131] (-) TimerEvent: {}
+[22.965835] (-) TimerEvent: {}
+[23.066556] (-) TimerEvent: {}
+[23.167249] (-) TimerEvent: {}
+[23.267940] (-) TimerEvent: {}
+[23.368674] (-) TimerEvent: {}
+[23.469379] (-) TimerEvent: {}
+[23.570068] (-) TimerEvent: {}
+[23.670764] (-) TimerEvent: {}
+[23.771490] (-) TimerEvent: {}
+[23.872309] (-) TimerEvent: {}
+[23.973139] (-) TimerEvent: {}
+[24.073841] (-) TimerEvent: {}
+[24.132443] (fixposition_driver_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_driver_lib.so\x1b[0m\n'}
+[24.174024] (-) TimerEvent: {}
+[24.274723] (-) TimerEvent: {}
+[24.321764] (fixposition_driver_lib) StdoutLine: {'line': b'[100%] Built target fixposition_driver_lib\n'}
+[24.346140] (fixposition_driver_lib) CommandEnded: {'returncode': 0}
+[24.374916] (-) TimerEvent: {}
+[24.421963] (fixposition_driver_lib) JobProgress: {'identifier': 'fixposition_driver_lib', 'progress': 'install'}
+[24.422748] (fixposition_driver_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble')]), 'shell': False}
+[24.441531] (fixposition_driver_lib) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.442014] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include\n'}
+[24.442258] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib\n'}
+[24.442443] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/nov_type.hpp\n'}
+[24.442652] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/msg_data.hpp\n'}
+[24.442850] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/fpb_measurements.hpp\n'}
+[24.443042] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/fpb.hpp\n'}
+[24.443259] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/params.hpp\n'}
+[24.443486] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter\n'}
+[24.443694] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/gpgga.hpp\n'}
+[24.443911] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/imu.hpp\n'}
+[24.444151] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/odometry.hpp\n'}
+[24.444585] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/llh.hpp\n'}
+[24.444824] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/base_converter.hpp\n'}
+[24.445040] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/tf.hpp\n'}
+[24.445227] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/gprmc.hpp\n'}
+[24.445406] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/gpzda.hpp\n'}
+[24.445579] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/fixposition_driver.hpp\n'}
+[24.445777] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/helper.hpp\n'}
+[24.445987] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/parser.hpp\n'}
+[24.446212] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/time_conversions.hpp\n'}
+[24.446648] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so\n'}
+[24.448148] (fixposition_driver_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so" to ""\n'}
+[24.448578] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so\n'}
+[24.449088] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets.cmake\n'}
+[24.449405] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets-release.cmake\n'}
+[24.449736] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib\n'}
+[24.449983] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/nov_type.hpp\n'}
+[24.450229] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/msg_data.hpp\n'}
+[24.450484] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/fpb_measurements.hpp\n'}
+[24.450696] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/fpb.hpp\n'}
+[24.451012] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/params.hpp\n'}
+[24.451190] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter\n'}
+[24.451344] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/gpgga.hpp\n'}
+[24.451519] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/imu.hpp\n'}
+[24.451664] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/odometry.hpp\n'}
+[24.451827] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/llh.hpp\n'}
+[24.451966] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/base_converter.hpp\n'}
+[24.452106] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/tf.hpp\n'}
+[24.452245] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/gprmc.hpp\n'}
+[24.452584] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/gpzda.hpp\n'}
+[24.452746] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/fixposition_driver.hpp\n'}
+[24.452922] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/helper.hpp\n'}
+[24.453057] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/parser.hpp\n'}
+[24.453189] (fixposition_driver_lib) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/time_conversions.hpp\n'}
+[24.453318] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/share/fixposition_driver_lib/package.xml\n'}
+[24.453448] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config.cmake\n'}
+[24.453576] (fixposition_driver_lib) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config-version.cmake\n'}
+[24.454960] (fixposition_driver_lib) CommandEnded: {'returncode': 0}
+[24.475047] (-) TimerEvent: {}
+[24.564754] (fixposition_driver_lib) JobEnded: {'identifier': 'fixposition_driver_lib', 'rc': 0}
+[24.568449] (fixposition_driver_ros2) JobStarted: {'identifier': 'fixposition_driver_ros2'}
+[24.575366] (-) TimerEvent: {}
+[24.585960] (fixposition_driver_ros2) JobProgress: {'identifier': 'fixposition_driver_ros2', 'progress': 'cmake'}
+[24.586810] (fixposition_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros2', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble')]), 'shell': False}
+[24.675575] (-) TimerEvent: {}
+[24.733221] (fixposition_driver_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[24.775755] (-) TimerEvent: {}
+[24.851246] (fixposition_driver_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[24.874689] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[24.875843] (-) TimerEvent: {}
+[24.976488] (-) TimerEvent: {}
+[25.033280] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[25.057895] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[25.058810] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[25.060150] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[25.070974] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[25.076553] (-) TimerEvent: {}
+[25.177138] (-) TimerEvent: {}
+[25.236306] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[25.261908] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[25.262909] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[25.264569] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[25.277210] (-) TimerEvent: {}
+[25.297644] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: date_time \n'}
+[25.325140] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[25.377378] (-) TimerEvent: {}
+[25.477970] (-) TimerEvent: {}
+[25.578611] (-) TimerEvent: {}
+[25.679240] (-) TimerEvent: {}
+[25.679780] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[25.779387] (-) TimerEvent: {}
+[25.880016] (-) TimerEvent: {}
+[25.912461] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[25.980178] (-) TimerEvent: {}
+[26.004176] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[26.014786] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[26.033192] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[26.062253] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.080244] (-) TimerEvent: {}
+[26.102958] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[26.180389] (-) TimerEvent: {}
+[26.280844] (-) TimerEvent: {}
+[26.381297] (-) TimerEvent: {}
+[26.481746] (-) TimerEvent: {}
+[26.502730] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[26.581918] (-) TimerEvent: {}
+[26.661599] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[26.681244] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[26.681966] (-) TimerEvent: {}
+[26.782355] (-) TimerEvent: {}
+[26.802180] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[26.807711] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[26.882469] (-) TimerEvent: {}
+[26.983026] (-) TimerEvent: {}
+[26.996750] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[27.059718] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[27.083108] (-) TimerEvent: {}
+[27.145658] (fixposition_driver_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.166383] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.183261] (-) TimerEvent: {}
+[27.283853] (-) TimerEvent: {}
+[27.308423] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.309145] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.384059] (-) TimerEvent: {}
+[27.475476] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[27.479170] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[27.484130] (-) TimerEvent: {}
+[27.584746] (-) TimerEvent: {}
+[27.685321] (-) TimerEvent: {}
+[27.772331] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[27.785399] (-) TimerEvent: {}
+[27.799932] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[27.885562] (-) TimerEvent: {}
+[27.986108] (-) TimerEvent: {}
+[28.086627] (-) TimerEvent: {}
+[28.187145] (-) TimerEvent: {}
+[28.287652] (-) TimerEvent: {}
+[28.388147] (-) TimerEvent: {}
+[28.433184] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[28.488268] (-) TimerEvent: {}
+[28.588840] (-) TimerEvent: {}
+[28.689461] (-) TimerEvent: {}
+[28.790067] (-) TimerEvent: {}
+[28.890812] (-) TimerEvent: {}
+[28.991862] (-) TimerEvent: {}
+[29.092639] (-) TimerEvent: {}
+[29.185811] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[29.192733] (-) TimerEvent: {}
+[29.293291] (-) TimerEvent: {}
+[29.393869] (-) TimerEvent: {}
+[29.494383] (-) TimerEvent: {}
+[29.595024] (-) TimerEvent: {}
+[29.695699] (-) TimerEvent: {}
+[29.796347] (-) TimerEvent: {}
+[29.897055] (-) TimerEvent: {}
+[29.997826] (-) TimerEvent: {}
+[30.098522] (-) TimerEvent: {}
+[30.199229] (-) TimerEvent: {}
+[30.242793] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[30.299315] (-) TimerEvent: {}
+[30.399859] (-) TimerEvent: {}
+[30.500508] (-) TimerEvent: {}
+[30.601156] (-) TimerEvent: {}
+[30.657021] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.701267] (-) TimerEvent: {}
+[30.713767] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[30.719534] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[30.785512] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[30.786170] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[30.786454] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[30.786709] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[30.801364] (-) TimerEvent: {}
+[30.835898] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[30.901523] (-) TimerEvent: {}
+[31.002151] (-) TimerEvent: {}
+[31.039504] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.102280] (-) TimerEvent: {}
+[31.149763] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[31.156489] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/fixposition_driver_ros2\n'}
+[31.192120] (fixposition_driver_ros2) CommandEnded: {'returncode': 0}
+[31.194101] (fixposition_driver_ros2) JobProgress: {'identifier': 'fixposition_driver_ros2', 'progress': 'build'}
+[31.195132] (fixposition_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble')]), 'shell': False}
+[31.202362] (-) TimerEvent: {}
+[31.287416] (fixposition_driver_ros2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[31.302552] (-) TimerEvent: {}
+[31.310684] (fixposition_driver_ros2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[31.324147] (fixposition_driver_ros2) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_fixposition_driver_ros2\n'}
+[31.402706] (-) TimerEvent: {}
+[31.503313] (-) TimerEvent: {}
+[31.603877] (-) TimerEvent: {}
+[31.704471] (-) TimerEvent: {}
+[31.805057] (-) TimerEvent: {}
+[31.857382] (fixposition_driver_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[31.858671] (fixposition_driver_ros2) StdoutLine: {'line': b'creating fixposition_driver_ros2.egg-info\n'}
+[31.859082] (fixposition_driver_ros2) StdoutLine: {'line': b'writing fixposition_driver_ros2.egg-info/PKG-INFO\n'}
+[31.859535] (fixposition_driver_ros2) StdoutLine: {'line': b'writing dependency_links to fixposition_driver_ros2.egg-info/dependency_links.txt\n'}
+[31.859900] (fixposition_driver_ros2) StdoutLine: {'line': b'writing top-level names to fixposition_driver_ros2.egg-info/top_level.txt\n'}
+[31.860344] (fixposition_driver_ros2) StdoutLine: {'line': b"writing manifest file 'fixposition_driver_ros2.egg-info/SOURCES.txt'\n"}
+[31.865129] (fixposition_driver_ros2) StdoutLine: {'line': b"reading manifest file 'fixposition_driver_ros2.egg-info/SOURCES.txt'\n"}
+[31.866438] (fixposition_driver_ros2) StdoutLine: {'line': b"writing manifest file 'fixposition_driver_ros2.egg-info/SOURCES.txt'\n"}
+[31.905169] (-) TimerEvent: {}
+[31.937501] (fixposition_driver_ros2) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_fixposition_driver_ros2_egg\n'}
+[32.005278] (-) TimerEvent: {}
+[32.105810] (-) TimerEvent: {}
+[32.206392] (-) TimerEvent: {}
+[32.307030] (-) TimerEvent: {}
+[32.407641] (-) TimerEvent: {}
+[32.508256] (-) TimerEvent: {}
+[32.608837] (-) TimerEvent: {}
+[32.709486] (-) TimerEvent: {}
+[32.810203] (-) TimerEvent: {}
+[32.825919] (fixposition_driver_ros2) StdoutLine: {'line': b'[  3%] Built target fixposition_driver_ros2__cpp\n'}
+[32.846931] (fixposition_driver_ros2) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.854888] (fixposition_driver_ros2) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.867264] (fixposition_driver_ros2) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[32.902774] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_c.dir/rosidl_generator_c/fixposition_driver_ros2/msg/detail/speed__functions.c.o\x1b[0m\n'}
+[32.903253] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_c.dir/rosidl_generator_c/fixposition_driver_ros2/msg/detail/vrtk__functions.c.o\x1b[0m\n'}
+[32.903529] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_c.dir/rosidl_generator_c/fixposition_driver_ros2/msg/detail/nmea__functions.c.o\x1b[0m\n'}
+[32.910367] (-) TimerEvent: {}
+[33.011230] (-) TimerEvent: {}
+[33.111903] (-) TimerEvent: {}
+[33.145332] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_c.dir/rosidl_generator_c/fixposition_driver_ros2/msg/detail/wheel_sensor__functions.c.o\x1b[0m\n'}
+[33.212086] (-) TimerEvent: {}
+[33.312775] (-) TimerEvent: {}
+[33.350486] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libfixposition_driver_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[33.412945] (-) TimerEvent: {}
+[33.418906] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 16%] Built target fixposition_driver_ros2__rosidl_generator_c\n'}
+[33.437888] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[33.438462] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[33.439513] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[33.513104] (-) TimerEvent: {}
+[33.613777] (-) TimerEvent: {}
+[33.714470] (-) TimerEvent: {}
+[33.815120] (-) TimerEvent: {}
+[33.915789] (-) TimerEvent: {}
+[34.016421] (-) TimerEvent: {}
+[34.117065] (-) TimerEvent: {}
+[34.184240] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixposition_driver_ros2/msg/vrtk__type_support.cpp.o\x1b[0m\n'}
+[34.217220] (-) TimerEvent: {}
+[34.317866] (-) TimerEvent: {}
+[34.332602] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixposition_driver_ros2/msg/detail/vrtk__type_support.cpp.o\x1b[0m\n'}
+[34.418050] (-) TimerEvent: {}
+[34.518722] (-) TimerEvent: {}
+[34.574540] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixposition_driver_ros2/msg/detail/dds_fastrtps/vrtk__type_support.cpp.o\x1b[0m\n'}
+[34.618901] (-) TimerEvent: {}
+[34.719560] (-) TimerEvent: {}
+[34.820254] (-) TimerEvent: {}
+[34.830013] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixposition_driver_ros2/msg/speed__type_support.cpp.o\x1b[0m\n'}
+[34.839070] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixposition_driver_ros2/msg/vrtk__type_support.cpp.o\x1b[0m\n'}
+[34.919330] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixposition_driver_ros2/msg/speed__type_support.cpp.o\x1b[0m\n'}
+[34.920354] (-) TimerEvent: {}
+[34.992695] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixposition_driver_ros2/msg/nmea__type_support.cpp.o\x1b[0m\n'}
+[35.020583] (-) TimerEvent: {}
+[35.058446] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixposition_driver_ros2/msg/detail/vrtk__type_support_c.cpp.o\x1b[0m\n'}
+[35.060294] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/fixposition_driver_ros2/msg/wheel_sensor__type_support.cpp.o\x1b[0m\n'}
+[35.099881] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixposition_driver_ros2/msg/detail/vrtk__type_support.c.o\x1b[0m\n'}
+[35.120800] (-) TimerEvent: {}
+[35.138798] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_driver_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[35.203993] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixposition_driver_ros2/msg/detail/speed__type_support.c.o\x1b[0m\n'}
+[35.220983] (-) TimerEvent: {}
+[35.221554] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 42%] Built target fixposition_driver_ros2__rosidl_typesupport_c\n'}
+[35.239197] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixposition_driver_ros2/msg/detail/nmea__type_support.c.o\x1b[0m\n'}
+[35.310396] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixposition_driver_ros2/msg/detail/speed__type_support.cpp.o\x1b[0m\n'}
+[35.315868] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixposition_driver_ros2/msg/detail/dds_fastrtps/speed__type_support.cpp.o\x1b[0m\n'}
+[35.321187] (-) TimerEvent: {}
+[35.348652] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.c.o\x1b[0m\n'}
+[35.421383] (-) TimerEvent: {}
+[35.435452] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libfixposition_driver_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[35.476686] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixposition_driver_ros2/msg/nmea__type_support.cpp.o\x1b[0m\n'}
+[35.500551] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 52%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_c\n'}
+[35.518987] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixposition_driver_ros2/msg/detail/speed__type_support_c.cpp.o\x1b[0m\n'}
+[35.521568] (-) TimerEvent: {}
+[35.622270] (-) TimerEvent: {}
+[35.723051] (-) TimerEvent: {}
+[35.782839] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixposition_driver_ros2/msg/detail/dds_fastrtps/nmea__type_support.cpp.o\x1b[0m\n'}
+[35.823269] (-) TimerEvent: {}
+[35.924052] (-) TimerEvent: {}
+[36.024807] (-) TimerEvent: {}
+[36.104090] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fixposition_driver_ros2/msg/wheel_sensor__type_support.cpp.o\x1b[0m\n'}
+[36.124988] (-) TimerEvent: {}
+[36.167742] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixposition_driver_ros2/msg/detail/nmea__type_support_c.cpp.o\x1b[0m\n'}
+[36.225206] (-) TimerEvent: {}
+[36.326242] (-) TimerEvent: {}
+[36.336406] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support_c.cpp.o\x1b[0m\n'}
+[36.426452] (-) TimerEvent: {}
+[36.462124] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixposition_driver_ros2/msg/detail/nmea__type_support.cpp.o\x1b[0m\n'}
+[36.526650] (-) TimerEvent: {}
+[36.530030] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fixposition_driver_ros2/msg/detail/dds_fastrtps/wheel_sensor__type_support.cpp.o\x1b[0m\n'}
+[36.626880] (-) TimerEvent: {}
+[36.727660] (-) TimerEvent: {}
+[36.734522] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_driver_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[36.813530] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 66%] Built target fixposition_driver_ros2__rosidl_typesupport_cpp\n'}
+[36.827902] (-) TimerEvent: {}
+[36.831348] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.cpp.o\x1b[0m\n'}
+[36.928123] (-) TimerEvent: {}
+[36.937201] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2_exec.dir/src/fixposition_driver_node.cpp.o\x1b[0m\n'}
+[37.028390] (-) TimerEvent: {}
+[37.129100] (-) TimerEvent: {}
+[37.166979] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2_exec.dir/src/params.cpp.o\x1b[0m\n'}
+[37.229294] (-) TimerEvent: {}
+[37.236434] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_driver_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[37.329486] (-) TimerEvent: {}
+[37.403406] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 72%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_c\n'}
+[37.421661] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/fixposition_driver_ros2_exec.dir/src/data_to_ros2.cpp.o\x1b[0m\n'}
+[37.429667] (-) TimerEvent: {}
+[37.530355] (-) TimerEvent: {}
+[37.592413] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[37.630535] (-) TimerEvent: {}
+[37.731507] (-) TimerEvent: {}
+[37.748870] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 76%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[37.760560] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libfixposition_driver_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[37.831724] (-) TimerEvent: {}
+[37.920326] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 77%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_cpp\n'}
+[37.931898] (-) TimerEvent: {}
+[37.969778] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 77%] Built target fixposition_driver_ros2\n'}
+[38.011561] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[38.032070] (-) TimerEvent: {}
+[38.132872] (-) TimerEvent: {}
+[38.233557] (-) TimerEvent: {}
+[38.334270] (-) TimerEvent: {}
+[38.434932] (-) TimerEvent: {}
+[38.535606] (-) TimerEvent: {}
+[38.636322] (-) TimerEvent: {}
+[38.737081] (-) TimerEvent: {}
+[38.838050] (-) TimerEvent: {}
+[38.938780] (-) TimerEvent: {}
+[39.039731] (-) TimerEvent: {}
+[39.140771] (-) TimerEvent: {}
+[39.241473] (-) TimerEvent: {}
+[39.342188] (-) TimerEvent: {}
+[39.442867] (-) TimerEvent: {}
+[39.543560] (-) TimerEvent: {}
+[39.644268] (-) TimerEvent: {}
+[39.744994] (-) TimerEvent: {}
+[39.845692] (-) TimerEvent: {}
+[39.946409] (-) TimerEvent: {}
+[40.047119] (-) TimerEvent: {}
+[40.147879] (-) TimerEvent: {}
+[40.248617] (-) TimerEvent: {}
+[40.349328] (-) TimerEvent: {}
+[40.450005] (-) TimerEvent: {}
+[40.550996] (-) TimerEvent: {}
+[40.651930] (-) TimerEvent: {}
+[40.752719] (-) TimerEvent: {}
+[40.770301] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 79%] Built target fixposition_driver_ros2__py\n'}
+[40.812856] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_py.dir/rosidl_generator_py/fixposition_driver_ros2/msg/_speed_s.c.o\x1b[0m\n'}
+[40.813615] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_py.dir/rosidl_generator_py/fixposition_driver_ros2/msg/_vrtk_s.c.o\x1b[0m\n'}
+[40.813957] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_py.dir/rosidl_generator_py/fixposition_driver_ros2/msg/_nmea_s.c.o\x1b[0m\n'}
+[40.852902] (-) TimerEvent: {}
+[40.953609] (-) TimerEvent: {}
+[41.054314] (-) TimerEvent: {}
+[41.141798] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_generator_py.dir/rosidl_generator_py/fixposition_driver_ros2/msg/_wheel_sensor_s.c.o\x1b[0m\n'}
+[41.154511] (-) TimerEvent: {}
+[41.255238] (-) TimerEvent: {}
+[41.355949] (-) TimerEvent: {}
+[41.456689] (-) TimerEvent: {}
+[41.457354] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixposition_driver_ros2/libfixposition_driver_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[41.549788] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 88%] Built target fixposition_driver_ros2__rosidl_generator_py\n'}
+[41.556881] (-) TimerEvent: {}
+[41.593446] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[41.595753] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[41.599703] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/fixposition_driver_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[41.657075] (-) TimerEvent: {}
+[41.757806] (-) TimerEvent: {}
+[41.858584] (-) TimerEvent: {}
+[41.943006] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[41.958788] (-) TimerEvent: {}
+[41.966863] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[41.985101] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[42.036895] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 98%] Built target fixposition_driver_ros2__rosidl_typesupport_c__pyext\n'}
+[42.058452] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 98%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[42.058923] (-) TimerEvent: {}
+[42.079717] (fixposition_driver_ros2) StdoutLine: {'line': b'[ 98%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[42.159141] (-) TimerEvent: {}
+[42.260274] (-) TimerEvent: {}
+[42.361013] (-) TimerEvent: {}
+[42.461730] (-) TimerEvent: {}
+[42.562448] (-) TimerEvent: {}
+[42.663172] (-) TimerEvent: {}
+[42.763935] (-) TimerEvent: {}
+[42.864699] (-) TimerEvent: {}
+[42.965404] (-) TimerEvent: {}
+[43.066126] (-) TimerEvent: {}
+[43.166830] (-) TimerEvent: {}
+[43.267512] (-) TimerEvent: {}
+[43.368220] (-) TimerEvent: {}
+[43.468943] (-) TimerEvent: {}
+[43.569640] (-) TimerEvent: {}
+[43.670352] (-) TimerEvent: {}
+[43.771054] (-) TimerEvent: {}
+[43.871752] (-) TimerEvent: {}
+[43.972469] (-) TimerEvent: {}
+[44.073152] (-) TimerEvent: {}
+[44.173829] (-) TimerEvent: {}
+[44.274515] (-) TimerEvent: {}
+[44.375207] (-) TimerEvent: {}
+[44.475895] (-) TimerEvent: {}
+[44.576602] (-) TimerEvent: {}
+[44.677304] (-) TimerEvent: {}
+[44.777996] (-) TimerEvent: {}
+[44.878681] (-) TimerEvent: {}
+[44.979366] (-) TimerEvent: {}
+[45.080079] (-) TimerEvent: {}
+[45.180777] (-) TimerEvent: {}
+[45.281506] (-) TimerEvent: {}
+[45.382206] (-) TimerEvent: {}
+[45.482916] (-) TimerEvent: {}
+[45.583649] (-) TimerEvent: {}
+[45.684358] (-) TimerEvent: {}
+[45.785066] (-) TimerEvent: {}
+[45.885769] (-) TimerEvent: {}
+[45.986471] (-) TimerEvent: {}
+[46.087148] (-) TimerEvent: {}
+[46.187827] (-) TimerEvent: {}
+[46.288514] (-) TimerEvent: {}
+[46.389188] (-) TimerEvent: {}
+[46.489849] (-) TimerEvent: {}
+[46.590455] (-) TimerEvent: {}
+[46.691094] (-) TimerEvent: {}
+[46.791667] (-) TimerEvent: {}
+[46.892221] (-) TimerEvent: {}
+[46.992809] (-) TimerEvent: {}
+[47.093384] (-) TimerEvent: {}
+[47.194047] (-) TimerEvent: {}
+[47.294721] (-) TimerEvent: {}
+[47.395404] (-) TimerEvent: {}
+[47.496111] (-) TimerEvent: {}
+[47.596833] (-) TimerEvent: {}
+[47.697546] (-) TimerEvent: {}
+[47.798221] (-) TimerEvent: {}
+[47.898906] (-) TimerEvent: {}
+[47.999600] (-) TimerEvent: {}
+[48.100294] (-) TimerEvent: {}
+[48.201013] (-) TimerEvent: {}
+[48.301702] (-) TimerEvent: {}
+[48.402393] (-) TimerEvent: {}
+[48.503096] (-) TimerEvent: {}
+[48.603787] (-) TimerEvent: {}
+[48.704502] (-) TimerEvent: {}
+[48.805192] (-) TimerEvent: {}
+[48.905880] (-) TimerEvent: {}
+[49.006560] (-) TimerEvent: {}
+[49.107248] (-) TimerEvent: {}
+[49.207941] (-) TimerEvent: {}
+[49.308649] (-) TimerEvent: {}
+[49.409341] (-) TimerEvent: {}
+[49.510025] (-) TimerEvent: {}
+[49.610716] (-) TimerEvent: {}
+[49.711393] (-) TimerEvent: {}
+[49.812079] (-) TimerEvent: {}
+[49.912771] (-) TimerEvent: {}
+[50.013449] (-) TimerEvent: {}
+[50.114111] (-) TimerEvent: {}
+[50.214783] (-) TimerEvent: {}
+[50.315471] (-) TimerEvent: {}
+[50.416165] (-) TimerEvent: {}
+[50.516859] (-) TimerEvent: {}
+[50.617541] (-) TimerEvent: {}
+[50.718208] (-) TimerEvent: {}
+[50.819177] (-) TimerEvent: {}
+[50.919829] (-) TimerEvent: {}
+[51.020441] (-) TimerEvent: {}
+[51.121115] (-) TimerEvent: {}
+[51.221804] (-) TimerEvent: {}
+[51.322553] (-) TimerEvent: {}
+[51.423161] (-) TimerEvent: {}
+[51.523824] (-) TimerEvent: {}
+[51.624440] (-) TimerEvent: {}
+[51.725101] (-) TimerEvent: {}
+[51.825783] (-) TimerEvent: {}
+[51.926460] (-) TimerEvent: {}
+[52.027143] (-) TimerEvent: {}
+[52.127819] (-) TimerEvent: {}
+[52.228512] (-) TimerEvent: {}
+[52.329182] (-) TimerEvent: {}
+[52.429860] (-) TimerEvent: {}
+[52.530554] (-) TimerEvent: {}
+[52.631240] (-) TimerEvent: {}
+[52.731914] (-) TimerEvent: {}
+[52.832601] (-) TimerEvent: {}
+[52.933250] (-) TimerEvent: {}
+[53.033919] (-) TimerEvent: {}
+[53.134599] (-) TimerEvent: {}
+[53.235273] (-) TimerEvent: {}
+[53.335961] (-) TimerEvent: {}
+[53.436670] (-) TimerEvent: {}
+[53.537373] (-) TimerEvent: {}
+[53.638031] (-) TimerEvent: {}
+[53.738642] (-) TimerEvent: {}
+[53.839309] (-) TimerEvent: {}
+[53.939953] (-) TimerEvent: {}
+[54.040642] (-) TimerEvent: {}
+[54.141290] (-) TimerEvent: {}
+[54.241959] (-) TimerEvent: {}
+[54.342640] (-) TimerEvent: {}
+[54.443351] (-) TimerEvent: {}
+[54.544054] (-) TimerEvent: {}
+[54.644758] (-) TimerEvent: {}
+[54.745433] (-) TimerEvent: {}
+[54.846125] (-) TimerEvent: {}
+[54.946824] (-) TimerEvent: {}
+[55.047640] (-) TimerEvent: {}
+[55.148485] (-) TimerEvent: {}
+[55.249280] (-) TimerEvent: {}
+[55.350089] (-) TimerEvent: {}
+[55.450887] (-) TimerEvent: {}
+[55.551680] (-) TimerEvent: {}
+[55.652520] (-) TimerEvent: {}
+[55.753319] (-) TimerEvent: {}
+[55.854098] (-) TimerEvent: {}
+[55.954893] (-) TimerEvent: {}
+[56.055741] (-) TimerEvent: {}
+[56.156560] (-) TimerEvent: {}
+[56.257353] (-) TimerEvent: {}
+[56.358146] (-) TimerEvent: {}
+[56.458952] (-) TimerEvent: {}
+[56.559755] (-) TimerEvent: {}
+[56.660553] (-) TimerEvent: {}
+[56.761276] (-) TimerEvent: {}
+[56.861920] (-) TimerEvent: {}
+[56.962552] (-) TimerEvent: {}
+[57.063176] (-) TimerEvent: {}
+[57.163820] (-) TimerEvent: {}
+[57.264557] (-) TimerEvent: {}
+[57.365340] (-) TimerEvent: {}
+[57.466107] (-) TimerEvent: {}
+[57.566862] (-) TimerEvent: {}
+[57.667590] (-) TimerEvent: {}
+[57.768277] (-) TimerEvent: {}
+[57.869012] (-) TimerEvent: {}
+[57.969634] (-) TimerEvent: {}
+[58.070225] (-) TimerEvent: {}
+[58.170833] (-) TimerEvent: {}
+[58.271565] (-) TimerEvent: {}
+[58.372266] (-) TimerEvent: {}
+[58.472902] (-) TimerEvent: {}
+[58.573527] (-) TimerEvent: {}
+[58.674241] (-) TimerEvent: {}
+[58.774946] (-) TimerEvent: {}
+[58.875649] (-) TimerEvent: {}
+[58.976269] (-) TimerEvent: {}
+[59.076889] (-) TimerEvent: {}
+[59.177461] (-) TimerEvent: {}
+[59.278076] (-) TimerEvent: {}
+[59.378783] (-) TimerEvent: {}
+[59.479422] (-) TimerEvent: {}
+[59.580126] (-) TimerEvent: {}
+[59.680875] (-) TimerEvent: {}
+[59.781492] (-) TimerEvent: {}
+[59.882131] (-) TimerEvent: {}
+[59.982876] (-) TimerEvent: {}
+[60.083641] (-) TimerEvent: {}
+[60.184426] (-) TimerEvent: {}
+[60.285178] (-) TimerEvent: {}
+[60.385917] (-) TimerEvent: {}
+[60.486575] (-) TimerEvent: {}
+[60.587306] (-) TimerEvent: {}
+[60.688067] (-) TimerEvent: {}
+[60.788866] (-) TimerEvent: {}
+[60.889641] (-) TimerEvent: {}
+[60.990408] (-) TimerEvent: {}
+[61.091160] (-) TimerEvent: {}
+[61.191916] (-) TimerEvent: {}
+[61.292658] (-) TimerEvent: {}
+[61.393299] (-) TimerEvent: {}
+[61.493943] (-) TimerEvent: {}
+[61.594644] (-) TimerEvent: {}
+[61.695302] (-) TimerEvent: {}
+[61.796029] (-) TimerEvent: {}
+[61.896828] (-) TimerEvent: {}
+[61.997530] (-) TimerEvent: {}
+[62.098306] (-) TimerEvent: {}
+[62.199169] (-) TimerEvent: {}
+[62.299947] (-) TimerEvent: {}
+[62.400766] (-) TimerEvent: {}
+[62.501521] (-) TimerEvent: {}
+[62.602238] (-) TimerEvent: {}
+[62.702974] (-) TimerEvent: {}
+[62.803768] (-) TimerEvent: {}
+[62.904582] (-) TimerEvent: {}
+[63.005371] (-) TimerEvent: {}
+[63.106097] (-) TimerEvent: {}
+[63.206899] (-) TimerEvent: {}
+[63.307688] (-) TimerEvent: {}
+[63.408520] (-) TimerEvent: {}
+[63.509407] (-) TimerEvent: {}
+[63.610192] (-) TimerEvent: {}
+[63.710985] (-) TimerEvent: {}
+[63.811773] (-) TimerEvent: {}
+[63.912564] (-) TimerEvent: {}
+[64.013364] (-) TimerEvent: {}
+[64.114166] (-) TimerEvent: {}
+[64.214936] (-) TimerEvent: {}
+[64.315621] (-) TimerEvent: {}
+[64.416461] (-) TimerEvent: {}
+[64.517225] (-) TimerEvent: {}
+[64.618105] (-) TimerEvent: {}
+[64.718910] (-) TimerEvent: {}
+[64.819851] (-) TimerEvent: {}
+[64.920635] (-) TimerEvent: {}
+[65.021298] (-) TimerEvent: {}
+[65.121956] (-) TimerEvent: {}
+[65.222575] (-) TimerEvent: {}
+[65.323242] (-) TimerEvent: {}
+[65.424059] (-) TimerEvent: {}
+[65.525041] (-) TimerEvent: {}
+[65.625927] (-) TimerEvent: {}
+[65.726643] (-) TimerEvent: {}
+[65.827410] (-) TimerEvent: {}
+[65.928125] (-) TimerEvent: {}
+[66.028983] (-) TimerEvent: {}
+[66.129911] (-) TimerEvent: {}
+[66.230651] (-) TimerEvent: {}
+[66.331387] (-) TimerEvent: {}
+[66.432173] (-) TimerEvent: {}
+[66.532985] (-) TimerEvent: {}
+[66.633762] (-) TimerEvent: {}
+[66.734522] (-) TimerEvent: {}
+[66.835323] (-) TimerEvent: {}
+[66.936122] (-) TimerEvent: {}
+[67.036952] (-) TimerEvent: {}
+[67.137734] (-) TimerEvent: {}
+[67.238535] (-) TimerEvent: {}
+[67.339342] (-) TimerEvent: {}
+[67.440148] (-) TimerEvent: {}
+[67.540941] (-) TimerEvent: {}
+[67.641712] (-) TimerEvent: {}
+[67.742493] (-) TimerEvent: {}
+[67.843285] (-) TimerEvent: {}
+[67.944077] (-) TimerEvent: {}
+[68.044903] (-) TimerEvent: {}
+[68.145678] (-) TimerEvent: {}
+[68.246448] (-) TimerEvent: {}
+[68.347204] (-) TimerEvent: {}
+[68.447992] (-) TimerEvent: {}
+[68.548806] (-) TimerEvent: {}
+[68.649577] (-) TimerEvent: {}
+[68.750382] (-) TimerEvent: {}
+[68.851177] (-) TimerEvent: {}
+[68.951967] (-) TimerEvent: {}
+[69.052803] (-) TimerEvent: {}
+[69.153592] (-) TimerEvent: {}
+[69.254362] (-) TimerEvent: {}
+[69.355168] (-) TimerEvent: {}
+[69.455954] (-) TimerEvent: {}
+[69.556762] (-) TimerEvent: {}
+[69.657530] (-) TimerEvent: {}
+[69.758338] (-) TimerEvent: {}
+[69.859124] (-) TimerEvent: {}
+[69.959920] (-) TimerEvent: {}
+[70.060759] (-) TimerEvent: {}
+[70.161559] (-) TimerEvent: {}
+[70.262348] (-) TimerEvent: {}
+[70.363134] (-) TimerEvent: {}
+[70.463909] (-) TimerEvent: {}
+[70.564719] (-) TimerEvent: {}
+[70.665516] (-) TimerEvent: {}
+[70.766289] (-) TimerEvent: {}
+[70.867075] (-) TimerEvent: {}
+[70.967873] (-) TimerEvent: {}
+[71.068700] (-) TimerEvent: {}
+[71.169484] (-) TimerEvent: {}
+[71.270273] (-) TimerEvent: {}
+[71.371035] (-) TimerEvent: {}
+[71.471810] (-) TimerEvent: {}
+[71.572643] (-) TimerEvent: {}
+[71.673427] (-) TimerEvent: {}
+[71.774220] (-) TimerEvent: {}
+[71.875018] (-) TimerEvent: {}
+[71.975770] (-) TimerEvent: {}
+[72.076509] (-) TimerEvent: {}
+[72.177185] (-) TimerEvent: {}
+[72.277872] (-) TimerEvent: {}
+[72.378616] (-) TimerEvent: {}
+[72.479380] (-) TimerEvent: {}
+[72.580179] (-) TimerEvent: {}
+[72.681006] (-) TimerEvent: {}
+[72.781818] (-) TimerEvent: {}
+[72.882620] (-) TimerEvent: {}
+[72.983415] (-) TimerEvent: {}
+[73.084217] (-) TimerEvent: {}
+[73.185036] (-) TimerEvent: {}
+[73.285834] (-) TimerEvent: {}
+[73.386653] (-) TimerEvent: {}
+[73.487464] (-) TimerEvent: {}
+[73.588257] (-) TimerEvent: {}
+[73.689103] (-) TimerEvent: {}
+[73.789904] (-) TimerEvent: {}
+[73.890683] (-) TimerEvent: {}
+[73.991480] (-) TimerEvent: {}
+[74.092291] (-) TimerEvent: {}
+[74.193130] (-) TimerEvent: {}
+[74.293950] (-) TimerEvent: {}
+[74.394753] (-) TimerEvent: {}
+[74.495554] (-) TimerEvent: {}
+[74.596356] (-) TimerEvent: {}
+[74.697188] (-) TimerEvent: {}
+[74.797992] (-) TimerEvent: {}
+[74.898775] (-) TimerEvent: {}
+[74.999564] (-) TimerEvent: {}
+[75.100427] (-) TimerEvent: {}
+[75.201214] (-) TimerEvent: {}
+[75.302005] (-) TimerEvent: {}
+[75.402800] (-) TimerEvent: {}
+[75.503584] (-) TimerEvent: {}
+[75.604417] (-) TimerEvent: {}
+[75.705219] (-) TimerEvent: {}
+[75.806211] (-) TimerEvent: {}
+[75.906974] (-) TimerEvent: {}
+[76.007752] (-) TimerEvent: {}
+[76.108567] (-) TimerEvent: {}
+[76.209327] (-) TimerEvent: {}
+[76.310063] (-) TimerEvent: {}
+[76.410829] (-) TimerEvent: {}
+[76.511618] (-) TimerEvent: {}
+[76.612404] (-) TimerEvent: {}
+[76.713167] (-) TimerEvent: {}
+[76.813938] (-) TimerEvent: {}
+[76.914715] (-) TimerEvent: {}
+[77.015501] (-) TimerEvent: {}
+[77.116245] (-) TimerEvent: {}
+[77.216927] (-) TimerEvent: {}
+[77.317644] (-) TimerEvent: {}
+[77.418407] (-) TimerEvent: {}
+[77.519156] (-) TimerEvent: {}
+[77.619859] (-) TimerEvent: {}
+[77.720564] (-) TimerEvent: {}
+[77.821319] (-) TimerEvent: {}
+[77.922002] (-) TimerEvent: {}
+[78.022855] (-) TimerEvent: {}
+[78.123620] (-) TimerEvent: {}
+[78.224427] (-) TimerEvent: {}
+[78.325195] (-) TimerEvent: {}
+[78.425990] (-) TimerEvent: {}
+[78.526769] (-) TimerEvent: {}
+[78.627522] (-) TimerEvent: {}
+[78.728338] (-) TimerEvent: {}
+[78.829133] (-) TimerEvent: {}
+[78.929806] (-) TimerEvent: {}
+[79.030580] (-) TimerEvent: {}
+[79.131346] (-) TimerEvent: {}
+[79.232066] (-) TimerEvent: {}
+[79.332678] (-) TimerEvent: {}
+[79.433441] (-) TimerEvent: {}
+[79.534186] (-) TimerEvent: {}
+[79.634915] (-) TimerEvent: {}
+[79.735638] (-) TimerEvent: {}
+[79.836423] (-) TimerEvent: {}
+[79.937168] (-) TimerEvent: {}
+[80.037835] (-) TimerEvent: {}
+[80.138613] (-) TimerEvent: {}
+[80.239354] (-) TimerEvent: {}
+[80.340080] (-) TimerEvent: {}
+[80.440771] (-) TimerEvent: {}
+[80.541392] (-) TimerEvent: {}
+[80.642011] (-) TimerEvent: {}
+[80.742646] (-) TimerEvent: {}
+[80.843368] (-) TimerEvent: {}
+[80.897163] (fixposition_driver_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fixposition_driver_ros2_exec\x1b[0m\n'}
+[80.943562] (-) TimerEvent: {}
+[81.044261] (-) TimerEvent: {}
+[81.145208] (-) TimerEvent: {}
+[81.245862] (-) TimerEvent: {}
+[81.344830] (fixposition_driver_ros2) StdoutLine: {'line': b'[100%] Built target fixposition_driver_ros2_exec\n'}
+[81.345928] (-) TimerEvent: {}
+[81.371913] (fixposition_driver_ros2) CommandEnded: {'returncode': 0}
+[81.446120] (-) TimerEvent: {}
+[81.546994] (-) TimerEvent: {}
+[81.598881] (fixposition_driver_ros2) JobProgress: {'identifier': 'fixposition_driver_ros2', 'progress': 'install'}
+[81.599913] (fixposition_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2'], 'cwd': '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-desktop:@/tmp/.ICE-unix/1807,unix/nvidia-desktop:/tmp/.ICE-unix/1807'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebb0bc85_b449_4abf_a489_7f2f7710022a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/f1tenth_ws/install/fixposition_driver_lib:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble')]), 'shell': False}
+[81.621898] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[81.622422] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/rosidl_interfaces/fixposition_driver_ros2\n'}
+[81.622818] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2\n'}
+[81.623117] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg\n'}
+[81.623326] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/nmea.h\n'}
+[81.623567] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/wheel_sensor.h\n'}
+[81.623810] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail\n'}
+[81.624179] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__struct.h\n'}
+[81.624652] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__functions.c\n'}
+[81.624967] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__functions.h\n'}
+[81.625230] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__functions.h\n'}
+[81.625491] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__type_support.h\n'}
+[81.625722] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__type_support.h\n'}
+[81.625960] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__type_support.h\n'}
+[81.626191] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__struct.h\n'}
+[81.626418] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__functions.c\n'}
+[81.626687] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__functions.h\n'}
+[81.626953] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__functions.h\n'}
+[81.627198] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.h\n'}
+[81.627438] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__functions.c\n'}
+[81.627704] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__struct.h\n'}
+[81.627936] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__struct.h\n'}
+[81.628168] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__functions.c\n'}
+[81.628615] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/speed.h\n'}
+[81.628853] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[81.629229] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/vrtk.h\n'}
+[81.629717] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/library_path.sh\n'}
+[81.630025] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/library_path.dsv\n'}
+[81.630479] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_generator_c.so\n'}
+[81.631221] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_generator_c.so" to ""\n'}
+[81.631816] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2\n'}
+[81.632117] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg\n'}
+[81.632275] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[81.632794] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail\n'}
+[81.633009] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_fastrtps_c.h\n'}
+[81.633193] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[81.633386] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_fastrtps_c.h\n'}
+[81.633530] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_fastrtps_c.h\n'}
+[81.633665] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[81.633978] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[81.634306] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2\n'}
+[81.634499] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg\n'}
+[81.634669] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/nmea.hpp\n'}
+[81.634820] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/wheel_sensor.hpp\n'}
+[81.634998] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/vrtk.hpp\n'}
+[81.635158] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/speed.hpp\n'}
+[81.635335] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail\n'}
+[81.635487] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__struct.hpp\n'}
+[81.635669] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__builder.hpp\n'}
+[81.635868] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__builder.hpp\n'}
+[81.636283] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__struct.hpp\n'}
+[81.636821] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__traits.hpp\n'}
+[81.637058] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__builder.hpp\n'}
+[81.637278] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__struct.hpp\n'}
+[81.637536] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__traits.hpp\n'}
+[81.637773] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__traits.hpp\n'}
+[81.638004] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__builder.hpp\n'}
+[81.638237] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__struct.hpp\n'}
+[81.638467] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__traits.hpp\n'}
+[81.638768] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2\n'}
+[81.638964] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg\n'}
+[81.639100] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[81.639287] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail\n'}
+[81.639417] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/dds_fastrtps\n'}
+[81.639576] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[81.639734] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[81.639892] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[81.640118] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[81.640721] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[81.641708] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[81.641863] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2\n'}
+[81.642042] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg\n'}
+[81.642194] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail\n'}
+[81.642326] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_introspection_c.h\n'}
+[81.642471] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_introspection_c.h\n'}
+[81.642616] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__type_support.c\n'}
+[81.642876] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_introspection_c.h\n'}
+[81.643123] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.c\n'}
+[81.643371] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__type_support.c\n'}
+[81.643622] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__type_support.c\n'}
+[81.643885] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_introspection_c.h\n'}
+[81.644116] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[81.644412] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_introspection_c.so\n'}
+[81.645180] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[81.645417] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_c.so\n'}
+[81.645850] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_c.so" to ""\n'}
+[81.646148] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2\n'}
+[81.646377] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg\n'}
+[81.646603] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail\n'}
+[81.646836] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__type_support.cpp\n'}
+[81.647060] (-) TimerEvent: {}
+[81.647422] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__type_support.cpp\n'}
+[81.647719] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[81.647970] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[81.648214] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.cpp\n'}
+[81.648436] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__type_support.cpp\n'}
+[81.648641] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_introspection_cpp.hpp\n'}
+[81.648915] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_introspection_cpp.hpp\n'}
+[81.649117] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[81.649302] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[81.649564] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_cpp.so\n'}
+[81.649760] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[81.649989] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/pythonpath.sh\n'}
+[81.650217] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/pythonpath.dsv\n'}
+[81.650446] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info\n'}
+[81.650673] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[81.650922] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/PKG-INFO\n'}
+[81.651152] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[81.651386] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/top_level.txt\n'}
+[81.651612] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2\n'}
+[81.651861] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[81.652100] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/libfixposition_driver_ros2__rosidl_generator_py.so\n'}
+[81.652333] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[81.652588] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[81.652829] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/__init__.py\n'}
+[81.653063] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_c.c\n'}
+[81.653297] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[81.653529] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg\n'}
+[81.653754] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_speed_s.c\n'}
+[81.653977] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_vrtk.py\n'}
+[81.654201] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/__init__.py\n'}
+[81.654451] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_wheel_sensor.py\n'}
+[81.654666] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_nmea_s.c\n'}
+[81.654905] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_wheel_sensor_s.c\n'}
+[81.655129] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_speed.py\n'}
+[81.655361] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_vrtk_s.c\n'}
+[81.655585] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_nmea.py\n'}
+[81.655779] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[81.739584] (fixposition_driver_ros2) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2'...\n"}
+[81.740055] (fixposition_driver_ros2) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/__init__.py'...\n"}
+[81.740269] (fixposition_driver_ros2) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg'...\n"}
+[81.740454] (fixposition_driver_ros2) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/__init__.py'...\n"}
+[81.740605] (fixposition_driver_ros2) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_nmea.py'...\n"}
+[81.740736] (fixposition_driver_ros2) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_speed.py'...\n"}
+[81.740859] (fixposition_driver_ros2) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_vrtk.py'...\n"}
+[81.740978] (fixposition_driver_ros2) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_wheel_sensor.py'...\n"}
+[81.747186] (-) TimerEvent: {}
+[81.751535] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[81.751919] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[81.752229] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[81.752805] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[81.753155] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[81.753707] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[81.753881] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_generator_py.so\n'}
+[81.754405] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_generator_py.so" to ""\n'}
+[81.754630] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/VRTK.idl\n'}
+[81.754918] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/Speed.idl\n'}
+[81.755147] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/NMEA.idl\n'}
+[81.755390] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/WheelSensor.idl\n'}
+[81.755647] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/VRTK.msg\n'}
+[81.755885] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/Speed.msg\n'}
+[81.756123] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/NMEA.msg\n'}
+[81.756392] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/WheelSensor.msg\n'}
+[81.756614] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/.\n'}
+[81.756775] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2\n'}
+[81.756930] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2/fixposition_driver_node.hpp\n'}
+[81.757067] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2/params.hpp\n'}
+[81.757223] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2/data_to_ros2.hpp\n'}
+[81.757618] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/fixposition_driver_ros2/fixposition_driver_ros2_exec\n'}
+[81.760492] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/fixposition_driver_ros2/fixposition_driver_ros2_exec" to ""\n'}
+[81.760679] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch\n'}
+[81.760841] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/serial.launch\n'}
+[81.760989] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/serial.yaml\n'}
+[81.761145] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/tcp.launch\n'}
+[81.761309] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/tcp.yaml\n'}
+[81.761670] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/package_run_dependencies/fixposition_driver_ros2\n'}
+[81.762020] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/parent_prefix_path/fixposition_driver_ros2\n'}
+[81.762313] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/ament_prefix_path.sh\n'}
+[81.762569] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/ament_prefix_path.dsv\n'}
+[81.762817] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/path.sh\n'}
+[81.763070] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/path.dsv\n'}
+[81.763314] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.bash\n'}
+[81.763574] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.sh\n'}
+[81.763846] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.zsh\n'}
+[81.764082] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.dsv\n'}
+[81.764320] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.dsv\n'}
+[81.764680] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/packages/fixposition_driver_ros2\n'}
+[81.765091] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_cExport.cmake\n'}
+[81.765396] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_cExport-release.cmake\n'}
+[81.765744] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[81.765996] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[81.766280] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_cppExport.cmake\n'}
+[81.766559] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[81.766844] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[81.767128] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[81.767423] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[81.767703] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cExport.cmake\n'}
+[81.768010] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cExport-release.cmake\n'}
+[81.768305] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[81.768619] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[81.768905] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[81.769191] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cppExport-release.cmake\n'}
+[81.769472] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_pyExport.cmake\n'}
+[81.769743] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_pyExport-release.cmake\n'}
+[81.769995] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[81.770258] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[81.770523] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[81.770770] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[81.771034] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[81.771304] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[81.771548] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[81.771794] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2Config.cmake\n'}
+[81.772000] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2Config-version.cmake\n'}
+[81.772255] (fixposition_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.xml\n'}
+[81.777562] (fixposition_driver_ros2) CommandEnded: {'returncode': 0}
+[81.847359] (-) TimerEvent: {}
+[81.947948] (-) TimerEvent: {}
+[82.048644] (-) TimerEvent: {}
+[82.050618] (fixposition_driver_ros2) JobEnded: {'identifier': 'fixposition_driver_ros2', 'rc': 0}
+[82.052845] (-) EventReactorShutdown: {}

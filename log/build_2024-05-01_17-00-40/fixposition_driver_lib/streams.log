@@ -1,0 +1,52 @@
+[0.039s] Invoking command in '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PKG_CONFIG_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/fixposition_driver_lib -- -j6 -l6
+[0.228s] [100%] Built target fixposition_driver_lib
+[0.280s] Invoked command in '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PKG_CONFIG_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/fixposition_driver_lib -- -j6 -l6
+[0.545s] Invoking command in '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PKG_CONFIG_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/fixposition_driver_lib
+[0.570s] -- Install configuration: "Release"
+[0.570s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include
+[0.571s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib
+[0.571s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/nov_type.hpp
+[0.571s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/msg_data.hpp
+[0.571s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/fpb_measurements.hpp
+[0.571s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/fpb.hpp
+[0.571s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/params.hpp
+[0.573s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter
+[0.573s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/gpgga.hpp
+[0.573s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/imu.hpp
+[0.574s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/odometry.hpp
+[0.575s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/llh.hpp
+[0.575s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/base_converter.hpp
+[0.578s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/tf.hpp
+[0.578s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/gprmc.hpp
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/converter/gpzda.hpp
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/fixposition_driver.hpp
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/helper.hpp
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/parser.hpp
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/./include/fixposition_driver_lib/time_conversions.hpp
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so
+[0.579s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so
+[0.580s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets.cmake
+[0.580s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets-release.cmake
+[0.580s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib
+[0.580s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/nov_type.hpp
+[0.580s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/msg_data.hpp
+[0.580s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/fpb_measurements.hpp
+[0.593s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/fpb.hpp
+[0.594s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/params.hpp
+[0.594s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/gpgga.hpp
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/imu.hpp
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/odometry.hpp
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/llh.hpp
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/base_converter.hpp
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/tf.hpp
+[0.595s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/gprmc.hpp
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/converter/gpzda.hpp
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/fixposition_driver.hpp
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/helper.hpp
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/parser.hpp
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/include/fixposition_driver_lib/time_conversions.hpp
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/share/fixposition_driver_lib/package.xml
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config.cmake
+[0.596s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config-version.cmake
+[0.613s] Invoked command in '/home/nvidia/f1tenth_ws/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PKG_CONFIG_PATH=/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/aarch64-linux-gnu/pkgconfig:/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/pkgconfig /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/fixposition_driver_lib

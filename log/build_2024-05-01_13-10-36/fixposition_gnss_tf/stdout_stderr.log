@@ -1,0 +1,25 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf
+[ 50%] [32mBuilding CXX object CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libfixposition_gnss_tf.so[0m
+[100%] Built target fixposition_gnss_tf
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf/gnss_tf.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/share/fixposition_gnss_tf/package.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config-version.cmake

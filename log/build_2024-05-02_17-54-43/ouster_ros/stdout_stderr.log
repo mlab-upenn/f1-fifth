@@ -1,0 +1,333 @@
+-- Build type not specified, using: Release
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ouster_sensor_msgs: 0.12.2 (/home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found Eigen3: /usr/share/eigen3/cmake/Eigen3Config.cmake (found version "3.4.0") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found jsoncpp: /usr/lib/aarch64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake (found version "1.9.5") 
+-- Found CURL: /usr/include/aarch64-linux-gnu (found version "7.81.0") 
+-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/f1tenth_ws/build/ouster_ros
+[  3%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o[0m
+[34m[1mGenerating build info header[0m
+[  7%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[  9%] Built target ouster_generate_header
+[ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 13%] Built target gtest_main
+[ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 16%] [32m[1mLinking CXX executable os_cloud[0m
+[ 18%] [32m[1mLinking CXX executable os_image[0m
+[ 18%] Built target os_cloud
+[ 20%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o[0m
+[ 20%] Built target os_image
+[ 22%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[ 24%] [32m[1mLinking CXX executable os_replay[0m
+[ 26%] [32m[1mLinking CXX executable os_sensor[0m
+[ 26%] Built target os_replay
+[ 28%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o[0m
+[ 28%] Built target os_sensor
+[ 30%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable os_driver[0m
+[ 32%] Built target os_driver
+[ 33%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[ 35%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[ 37%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o[0m
+[ 39%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[ 41%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o[0m
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kuint32_t ouster::sensor::packet_format::frame_id(const uint8_t*) const[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:443:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const[m[K’ is deprecated: Use frame_id instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  443 |         return [01;35m[Kcol_frame_id(nth_col(0, lidar_buf))[m[K;
+      |                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/impl/packet_writer.h:8[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:18[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:1102:53:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1102 |     [[deprecated("Use frame_id instead")]] uint16_t [01;36m[Kcol_frame_id[m[K(
+      |                                                     [01;36m[K^~~~~~~~~~~~[m[K
+[ 43%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 45%] Built target gtest
+[ 47%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o[0m
+[ 49%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[ 50%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o[0m
+[ 52%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/util.cpp.o[0m
+[ 54%] [32m[1mLinking CXX static library libouster_client.a[0m
+[ 54%] Built target ouster_client
+[ 56%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[ 58%] Built target ouster_ros_library
+[ 66%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/ring_buffer_test.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[ 81%] Built target os_replay_component
+[ 83%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  224 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  233 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:23[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  250 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:[m[K At global scope:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:50:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   50 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+      |                                                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:21[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  224 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  233 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:24[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  250 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:224:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  224 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_sensor_time_ptp(const ouster::sensor::packet_format&, const uint8_t*, int64_t)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:233:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  233 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:20[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:[m[K In member function ‘[01m[Kbool ouster_ros::LidarPacketHandler::lidar_handler_ros_time(const ouster::sensor::packet_format&, const uint8_t*)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/lidar_packet_handler.h:250:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’ is deprecated: Use ScanBatcher::operator(LidarPacket&, LidarScan&) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  250 |         if (![01;35m[K(*scan_batcher)(lidar_buf, *lidar_scan)[m[K) return false;
+      |              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:16[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/src/os_driver_node.cpp:13[m[K:
+[01m[K/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:532:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  532 |     [01;36m[Koperator[m[K()(const uint8_t* packet_buf, LidarScan& ls);
+      |     [01;36m[K^~~~~~~~[m[K
+[ 88%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[ 90%] Built target os_sensor_component
+[ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[ 94%] Built target os_image_component
+[ 96%] [32m[1mLinking CXX executable ouster_ros_test[0m
+[ 96%] Built target ouster_ros_test
+[ 98%] [32m[1mLinking CXX shared library libos_driver_component.so[0m
+[ 98%] Built target os_driver_component
+[100%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[100%] Built target os_cloud_component
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_sensor" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_replay
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_replay" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_cloud" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_image
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_image" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_driver
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/ouster_ros/os_driver" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/libouster_ros_library.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/libouster_ros_library.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_sensor_component.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_sensor_component.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_replay_component.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_replay_component.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_cloud_component.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_cloud_component.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_image_component.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_image_component.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_driver_component.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ouster_ros/lib/libos_driver_component.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/sensor_point_types.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/common_point_types.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/packet_writer.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/profile_extension.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/defaults.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/types.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/client.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/version.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/util.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/optional-lite
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/optional-lite
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/optional-lite/nonstd
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/LICENSE
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/environment/path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/local_setup.bash
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/local_setup.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/package.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ouster_ros/share/ouster_ros/package.xml

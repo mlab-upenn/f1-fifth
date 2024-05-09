@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found fixposition_driver_ros2: 5.0.0 (/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/f1tenth_ws/build/fixposition_odometry_converter_ros2
+[ 60%] [32mBuilding CXX object CMakeFiles/odom_converter.dir/src/odom_converter_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/odom_converter_node.dir/rclcpp_components/node_main_odom_converter_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/odom_converter.dir/src/params.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable odom_converter_node[0m
+[ 80%] Built target odom_converter_node
+[100%] [32m[1mLinking CXX shared library libodom_converter.so[0m
+[100%] Built target odom_converter
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/lib/fixposition_odometry_converter_ros2/odom_converter_node
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/lib/fixposition_odometry_converter_ros2/odom_converter_node" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/launch
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/launch/odom_converter.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/launch/odom_converter.launch
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/lib/libodom_converter.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/lib/libodom_converter.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/./include
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/./include/fixposition_odometry_converter_ros2
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/./include/fixposition_odometry_converter_ros2/params.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/./include/fixposition_odometry_converter_ros2/odom_converter_node.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/ament_index/resource_index/package_run_dependencies/fixposition_odometry_converter_ros2
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/ament_index/resource_index/parent_prefix_path/fixposition_odometry_converter_ros2
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/environment/path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/environment/path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/local_setup.bash
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/local_setup.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/local_setup.zsh
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/ament_index/resource_index/packages/fixposition_odometry_converter_ros2
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/ament_index/resource_index/rclcpp_components/fixposition_odometry_converter_ros2
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/cmake/fixposition_odometry_converter_ros2Config.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/cmake/fixposition_odometry_converter_ros2Config-version.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_odometry_converter_ros2/share/fixposition_odometry_converter_ros2/package.xml

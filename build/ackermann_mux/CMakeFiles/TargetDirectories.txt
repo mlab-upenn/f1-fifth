@@ -1,0 +1,10 @@
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/uninstall.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/ackermann_mux_uninstall.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/ackermann_mux.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/test.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/edit_cache.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/rebuild_cache.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/list_install_components.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/install.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/install/local.dir
+/home/nvidia/f1tenth_ws/build/ackermann_mux/CMakeFiles/install/strip.dir

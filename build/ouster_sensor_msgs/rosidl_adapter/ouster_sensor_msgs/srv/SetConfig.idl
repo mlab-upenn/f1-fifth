@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ouster_sensor_msgs/srv/SetConfig.srv
+// generated code does not contain a copyright notice
+
+
+module ouster_sensor_msgs {
+  module srv {
+    struct SetConfig_Request {
+      string config_file;
+    };
+    struct SetConfig_Response {
+      string config;
+    };
+  };
+};

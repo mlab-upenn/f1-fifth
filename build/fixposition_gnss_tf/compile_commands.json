@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf",
+  "command": "/usr/bin/c++ -DEIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT -Dfixposition_gnss_tf_EXPORTS -I/home/nvidia/f1tenth_ws/src/fixposition_gnss_tf/include -I/usr/include/eigen3  -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIC -std=gnu++14 -o CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o -c /home/nvidia/f1tenth_ws/src/fixposition_gnss_tf/src/gnss_tf.cpp",
+  "file": "/home/nvidia/f1tenth_ws/src/fixposition_gnss_tf/src/gnss_tf.cpp"
+}
+]

@@ -1,0 +1,9 @@
+[  1%] Built target fixposition_driver_ros2__cpp
+[35m[1mConsolidate compiler generated dependencies of target fixposition_driver_ros2__rosidl_generator_c[0m
+[ 11%] Built target fixposition_driver_ros2__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target fixposition_driver_ros2__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target fixposition_driver_ros2__rosidl_typesupport_introspection_cpp[0m
+[ 22%] Built target fixposition_driver_ros2__rosidl_typesupport_cpp
+[ 32%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_cpp

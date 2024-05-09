@@ -1,0 +1,6 @@
+msg/Metadata.idl
+msg/Metadata.msg
+srv/GetMetadata.idl
+srv/GetMetadata.srv
+srv/GetMetadata_Request.msg
+srv/GetMetadata_Response.msg

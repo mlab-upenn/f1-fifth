@@ -1,0 +1,33 @@
+running egg_info
+writing ../../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+writing requirements to ../../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+writing top-level names to ../../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+reading manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joy_teleop/__init__.py -> /home/nvidia/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+copying joy_teleop/incrementer_server.py -> /home/nvidia/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+copying joy_teleop/joy_teleop.py -> /home/nvidia/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+running install
+running install_lib
+copying /home/nvidia/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+copying /home/nvidia/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+copying /home/nvidia/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+byte-compiling /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-310.pyc
+byte-compiling /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-310.pyc
+running install_data
+copying package.xml -> /home/nvidia/f1tenth_ws/install/joy_teleop/share/joy_teleop
+copying config/joy_teleop_example.yaml -> /home/nvidia/f1tenth_ws/install/joy_teleop/share/joy_teleop/config
+copying launch/example.launch.py -> /home/nvidia/f1tenth_ws/install/joy_teleop/share/joy_teleop/launch
+copying resource/joy_teleop -> /home/nvidia/f1tenth_ws/install/joy_teleop/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-0.3.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/joy_teleop/joy_teleop.egg-info to /home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-0.3.0-py3.10.egg-info
+running install_scripts
+Installing incrementer_server script to /home/nvidia/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+Installing joy_teleop script to /home/nvidia/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+writing list of installed files to '/home/nvidia/f1tenth_ws/build/joy_teleop/install.log'

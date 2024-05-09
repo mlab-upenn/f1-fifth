@@ -1,0 +1,27 @@
+[0.042s] Invoking command in '/home/nvidia/f1tenth_ws/build/fpl2bag': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/fixposition_utility/fpl2bag -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fpl2bag
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting CXX compiler ABI info
+[0.492s] -- Detecting CXX compiler ABI info - done
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.507s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.528s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.530s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.530s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.530s]   CMake did not find one.
+[0.530s] 
+[0.530s]   Could not find a package configuration file provided by "catkin" with any
+[0.530s]   of the following names:
+[0.530s] 
+[0.530s]     catkinConfig.cmake
+[0.531s]     catkin-config.cmake
+[0.531s] 
+[0.531s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.531s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.531s]   provides a separate development package or SDK, be sure it has been
+[0.531s]   installed.
+[0.531s] 
+[0.531s] [0m
+[0.531s] -- Configuring incomplete, errors occurred!
+[0.532s] See also "/home/nvidia/f1tenth_ws/build/fpl2bag/CMakeFiles/CMakeOutput.log".
+[0.570s] Invoked command in '/home/nvidia/f1tenth_ws/build/fpl2bag' returned '1': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/fixposition_utility/fpl2bag -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fpl2bag

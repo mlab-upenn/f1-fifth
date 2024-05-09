@@ -1,0 +1,1 @@
+Invoking command in '/home/nvidia/f1tenth_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/f1tenth_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/realsense2_camera_msgs

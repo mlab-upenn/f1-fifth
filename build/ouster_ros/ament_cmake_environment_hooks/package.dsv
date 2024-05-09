@@ -1,0 +1,4 @@
+source;share/ouster_ros/local_setup.bash
+source;share/ouster_ros/local_setup.dsv
+source;share/ouster_ros/local_setup.sh
+source;share/ouster_ros/local_setup.zsh

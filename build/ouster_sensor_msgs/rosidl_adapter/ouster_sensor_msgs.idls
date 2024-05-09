@@ -1,0 +1,4 @@
+/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:msg/PacketMsg.idl
+/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:srv/GetConfig.idl
+/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:srv/SetConfig.idl
+/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs/rosidl_adapter/ouster_sensor_msgs:srv/GetMetadata.idl

@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt
+writing requirements to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt
+writing top-level names to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt
+reading manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/vesc.yaml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+running install_egg_info
+removing '/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages/f1tenth_stack-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/f1tenth_stack/f1tenth_stack.egg-info to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages/f1tenth_stack-0.0.1-py3.10.egg-info
+running install_scripts
+Installing tf_publisher script to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing throttle_interpolator script to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+writing list of installed files to '/home/nvidia/f1tenth_ws/build/f1tenth_stack/install.log'

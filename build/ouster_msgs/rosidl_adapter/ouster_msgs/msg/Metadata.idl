@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ouster_msgs/msg/Metadata.msg
+// generated code does not contain a copyright notice
+
+
+module ouster_msgs {
+  module msg {
+    struct Metadata {
+      string hostname;
+
+      string lidar_mode;
+
+      string timestamp_mode;
+
+      sequence<double> beam_azimuth_angles;
+
+      sequence<double> beam_altitude_angles;
+
+      sequence<double> imu_to_sensor_transform;
+
+      sequence<double> lidar_to_sensor_transform;
+
+      string serial_no;
+
+      string firmware_rev;
+
+      int8 imu_port;
+
+      int8 lidar_port;
+    };
+  };
+};

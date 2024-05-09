@@ -1,0 +1,7 @@
+{
+  "package_name": "ouster_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/f1tenth_ws/src/ros2_ouster_drivers/ouster_msgs:srv/GetMetadata.srv",
+    "/home/nvidia/f1tenth_ws/src/ros2_ouster_drivers/ouster_msgs:msg/Metadata.msg"
+  ]
+}

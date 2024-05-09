@@ -1,0 +1,166 @@
+[0.073s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[0.759s] [  1%] Built target vesc_msgs__cpp
+[0.759s] [  1%] Built target ament_cmake_python_symlink_vesc_msgs
+[0.759s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[0.760s] [ 23%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.762s] [ 34%] Built target vesc_msgs__rosidl_typesupport_cpp
+[0.762s] [ 45%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[0.763s] [ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[0.764s] [ 67%] Built target vesc_msgs__rosidl_typesupport_c
+[0.765s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[0.765s] [ 78%] Built target vesc_msgs
+[0.767s] [ 80%] Built target vesc_msgs__py
+[0.767s] [ 89%] Built target vesc_msgs__rosidl_generator_py
+[0.768s] [ 92%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[0.768s] [ 96%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.768s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[0.912s] running egg_info
+[0.915s] writing vesc_msgs.egg-info/PKG-INFO
+[0.918s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[0.919s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[0.927s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[1.045s] [100%] Built target ament_cmake_python_build_vesc_msgs_egg
+[1.087s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[1.894s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/vesc_msgs
+[1.914s] -- Install configuration: "Release"
+[1.915s] -- Execute custom install script
+[1.916s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[1.917s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.h
+[1.917s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.h
+[1.917s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[1.918s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[1.918s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[1.918s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[1.919s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.h
+[1.919s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.h
+[1.919s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.h
+[1.920s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[1.920s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[1.920s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[1.921s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.921s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.h
+[1.921s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.h
+[1.921s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.h
+[1.923s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.h
+[1.923s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[1.925s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[1.927s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[1.927s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[1.928s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[1.928s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[1.929s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.929s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[1.930s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[1.930s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[1.931s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[1.931s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.931s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[1.931s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[1.931s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[1.931s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[1.932s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[1.932s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[1.932s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[1.932s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[1.932s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[1.932s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[1.933s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[1.933s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[1.933s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.hpp
+[1.933s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.hpp
+[1.933s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.hpp
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.hpp
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.934s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[1.935s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.935s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[1.935s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.935s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[1.936s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[1.936s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[1.936s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[1.937s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[1.937s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[1.938s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/__init__.py
+[1.939s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c
+[1.939s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.939s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.939s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/libvesc_msgs__rosidl_generator_py.so
+[1.940s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/__init__.py
+[1.941s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu.py
+[1.942s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_s.c
+[1.942s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[1.942s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[1.943s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state.py
+[1.943s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_s.c
+[1.944s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[1.944s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[1.945s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.945s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.945s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.946s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.946s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.947s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.948s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[1.948s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[1.949s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[1.949s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[1.950s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[1.951s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[1.951s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[1.952s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[1.952s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[1.953s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[1.953s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[1.954s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[1.956s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[1.957s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[1.957s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[1.958s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[1.958s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[1.958s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[1.958s] -- Symlinking: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.dsv
+[1.980s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[1.981s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[1.981s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.981s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.982s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.983s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.983s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.983s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.983s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[1.984s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[1.984s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.xml
+[1.985s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[1.986s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[1.986s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[1.987s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[1.988s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.988s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[1.989s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[2.071s] Listing '/home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs'...
+[2.071s] Listing '/home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages/vesc_msgs/msg'...
+[2.087s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
+[2.087s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport.cmake
+[2.088s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport-release.cmake
+[2.088s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.088s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.094s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.095s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[2.095s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-release.cmake
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cppExport.cmake
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.103s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.103s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[2.103s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-release.cmake
+[2.103s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport.cmake
+[2.103s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport-release.cmake
+[2.133s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/vesc_msgs

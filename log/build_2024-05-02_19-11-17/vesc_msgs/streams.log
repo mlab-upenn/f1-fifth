@@ -1,0 +1,41 @@
+[0.058s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[0.857s] [  1%] Built target vesc_msgs__cpp
+[0.857s] [  1%] Built target ament_cmake_python_symlink_vesc_msgs
+[0.857s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[0.858s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_introspection_c[0m
+[0.858s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[0.858s] [ 34%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.858s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.858s] [ 45%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[0.858s] [ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[0.858s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_c[0m
+[0.858s] [ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[0.859s] [ 78%] Built target vesc_msgs__rosidl_typesupport_c
+[0.859s] [ 78%] Built target vesc_msgs
+[0.859s] [ 80%] Built target vesc_msgs__py
+[0.859s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_py[0m
+[0.859s] [ 83%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_stamped_s.c.o[0m
+[0.859s] [ 83%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_s.c.o[0m
+[0.859s] [ 85%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_s.c.o[0m
+[0.859s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c.o[0m
+[0.898s] running egg_info
+[0.901s] writing vesc_msgs.egg-info/PKG-INFO
+[0.902s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[0.902s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[0.916s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[0.932s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[1.057s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__rosidl_generator_py.so[0m
+[1.057s] [ 89%] Built target ament_cmake_python_build_vesc_msgs_egg
+[1.158s] [ 89%] Built target vesc_msgs__rosidl_generator_py
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_c__pyext[0m
+[1.187s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.201s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.215s] [ 90%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.219s] [ 92%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.229s] [ 94%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.584s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.586s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.601s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.672s] [100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.675s] [100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[1.682s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext

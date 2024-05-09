@@ -1,0 +1,207 @@
+[  1%] Built target fixposition_driver_ros2__cpp
+[ 11%] Built target fixposition_driver_ros2__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_fixposition_driver_ros2
+[ 22%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_cpp
+[ 32%] Built target fixposition_driver_ros2__rosidl_typesupport_cpp
+[ 42%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_c
+[ 54%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_c
+[ 62%] Built target fixposition_driver_ros2__rosidl_typesupport_c
+[ 72%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target fixposition_driver_ros2
+[ 79%] Built target fixposition_driver_ros2_exec
+[ 81%] Built target fixposition_driver_ros2__py
+[ 89%] Built target fixposition_driver_ros2__rosidl_generator_py
+[ 93%] Built target fixposition_driver_ros2__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target fixposition_driver_ros2__rosidl_typesupport_introspection_c__pyext
+[100%] Built target fixposition_driver_ros2__rosidl_typesupport_c__pyext
+running egg_info
+writing fixposition_driver_ros2.egg-info/PKG-INFO
+writing dependency_links to fixposition_driver_ros2.egg-info/dependency_links.txt
+writing top-level names to fixposition_driver_ros2.egg-info/top_level.txt
+reading manifest file 'fixposition_driver_ros2.egg-info/SOURCES.txt'
+writing manifest file 'fixposition_driver_ros2.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_fixposition_driver_ros2_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/rosidl_interfaces/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/nmea.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/wheel_sensor.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__struct.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__functions.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__functions.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__functions.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__type_support.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__type_support.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__type_support.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__struct.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__functions.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__functions.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__functions.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__functions.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__struct.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__struct.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__functions.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/speed.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/vrtk.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/library_path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/library_path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_generator_c.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/nmea.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/wheel_sensor.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/vrtk.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/speed.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__struct.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__builder.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__builder.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__struct.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__traits.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__builder.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__struct.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__traits.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__traits.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__builder.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__struct.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__traits.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/dds_fastrtps
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__type_support.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__type_support.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__type_support.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_c.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__type_support.cpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__type_support.cpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/wheel_sensor__type_support.cpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/speed__type_support.cpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/nmea__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_ros2/msg/detail/vrtk__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/pythonpath.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/pythonpath.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2-5.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/libfixposition_driver_ros2__rosidl_generator_py.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/__init__.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/_fixposition_driver_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_speed_s.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_vrtk.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/__init__.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_wheel_sensor.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_nmea_s.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_wheel_sensor_s.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_speed.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_vrtk_s.c
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg/_nmea.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+Listing '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2'...
+Listing '/home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/msg'...
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/local/lib/python3.10/dist-packages/fixposition_driver_ros2/fixposition_driver_ros2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/libfixposition_driver_ros2__rosidl_generator_py.so
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/VRTK.idl
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/Speed.idl
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/NMEA.idl
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/WheelSensor.idl
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/VRTK.msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/Speed.msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/NMEA.msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/msg/WheelSensor.msg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/.
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2/fixposition_driver_node.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2/params.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/./fixposition_driver_ros2/data_to_ros2.hpp
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/lib/fixposition_driver_ros2/fixposition_driver_ros2_exec
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/serial.launch
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/serial.yaml
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/tcp.launch
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2//launch/tcp.yaml
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/package_run_dependencies/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/parent_prefix_path/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/environment/path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.bash
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.zsh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/ament_index/resource_index/packages/fixposition_driver_ros2
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2__rosidl_typesupport_cppExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/export_fixposition_driver_ros2__rosidl_generator_pyExport-release.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2Config.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/cmake/fixposition_driver_ros2Config-version.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_driver_ros2/share/fixposition_driver_ros2/package.xml

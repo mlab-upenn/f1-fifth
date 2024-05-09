@@ -1,0 +1,1 @@
+/home/nvidia/f1tenth_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/vesc_msgs.egg-info/top_level.txt

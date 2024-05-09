@@ -1,0 +1,458 @@
+[0.016s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/vesc_ackermann
+[0.144s] -- The C compiler identification is GNU 11.4.0
+[0.251s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.572s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.586s] -- Detecting CXX compile features
+[0.587s] -- Detecting CXX compile features - done
+[0.591s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.920s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.314s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.324s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.339s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.996s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.001s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.183s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.237s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.343s] -- Looking for pthread.h
+[2.478s] -- Looking for pthread.h - found
+[2.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.620s] -- Found Threads: TRUE  
+[3.709s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.749s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include
+[3.749s] -- Configured cppcheck exclude dirs and/or files: 
+[3.751s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.752s] -- Configured cpplint exclude dirs and/or files: 
+[3.753s] -- Added test 'lint_cmake' to check CMake code style
+[3.755s] -- Added test 'uncrustify' to check C / C++ code style
+[3.756s] -- Configured uncrustify additional arguments: 
+[3.757s] -- Added test 'xmllint' to check XML markup files
+[3.763s] -- Configuring done
+[3.816s] -- Generating done
+[3.822s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/vesc_ackermann
+[3.856s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/vesc_ackermann
+[3.857s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[4.111s] [ 14%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[4.112s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[4.135s] [ 42%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[4.159s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[13.280s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In constructor ‘[01m[Kvesc_ackermann::VescToOdom::VescToOdom(const rclcpp::NodeOptions&)[m[K’:
+[13.280s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [19])[m[K’
+[13.281s]    63 |   speed_to_erpm_gain_ = [01;31m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[13.281s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.281s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[13.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.281s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.282s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.282s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[13.282s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[13.282s]       | [01;36m[K^~~~[m[K
+[13.282s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.291s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:42:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.293s]    63 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[13.293s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.293s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.294s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.294s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.294s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[13.294s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[13.294s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.294s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.294s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[13.294s]    63 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[13.295s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.295s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.295s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.295s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.295s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[13.295s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[13.295s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.296s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.296s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[13.296s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[13.296s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.296s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.296s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[13.296s]    63 |   speed_to_erpm_gain_ = declare_parameter("speed_to_erpm_gain").get<[01;31m[Kdouble[m[K>();
+[13.296s]       |                                                                     [01;31m[K^~~~~~[m[K
+[13.296s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [21])[m[K’
+[13.297s]    64 |   speed_to_erpm_offset_ = [01;31m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[13.297s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.297s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[13.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.297s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.297s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.298s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[13.298s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[13.298s]       | [01;36m[K^~~~[m[K
+[13.298s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.298s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:44:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.298s]    64 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[13.298s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.298s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.299s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.299s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.299s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[13.299s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[13.299s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.299s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.299s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:44:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[13.299s]    64 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[13.299s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.300s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.300s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.300s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.300s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[13.300s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[13.300s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.300s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.301s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[13.301s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[13.301s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.301s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.301s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[13.301s]    64 |   speed_to_erpm_offset_ = declare_parameter("speed_to_erpm_offset").get<[01;31m[Kdouble[m[K>();
+[13.301s]       |                                                                         [01;31m[K^~~~~~[m[K
+[13.301s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [29])[m[K’
+[13.302s]    67 |     steering_to_servo_gain_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[13.302s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.302s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.302s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.302s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.302s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[13.303s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[13.303s]       | [01;36m[K^~~~[m[K
+[13.303s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.303s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:48:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.303s]    67 |     steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[13.303s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.304s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.304s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[13.304s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[13.304s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.304s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:48:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[13.304s]    67 |     steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[13.304s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.305s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.305s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.305s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.305s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[13.314s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[13.315s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.315s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.315s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[13.326s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[13.326s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.326s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.326s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:85:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[13.326s]    67 |     steering_to_servo_gain_ = declare_parameter("steering_angle_to_servo_gain").get<[01;31m[Kdouble[m[K>();
+[13.327s]       |                                                                                     [01;31m[K^~~~~~[m[K
+[13.327s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [31])[m[K’
+[13.327s]    68 |     steering_to_servo_offset_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[13.327s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.327s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[13.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.327s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.328s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.328s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[13.328s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[13.328s]       | [01;36m[K^~~~[m[K
+[13.328s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.328s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:50:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.328s]    68 |     steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[13.328s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.329s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.329s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.329s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.329s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[13.329s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[13.329s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.330s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.330s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:50:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[13.330s]    68 |     steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[13.330s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.330s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.330s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.330s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[13.331s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[13.331s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.331s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[13.331s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[13.331s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.332s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.332s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[13.332s]    68 |     steering_to_servo_offset_ = declare_parameter("steering_angle_to_servo_offset").get<[01;31m[Kdouble[m[K>();
+[13.332s]       |                                                                                         [01;31m[K^~~~~~[m[K
+[13.332s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [10])[m[K’
+[13.332s]    69 |     wheelbase_ = [01;31m[Kdeclare_parameter("wheelbase")[m[K.get<double>();
+[13.332s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[13.332s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[13.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.333s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.333s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.333s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[13.333s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[13.333s]       | [01;36m[K^~~~[m[K
+[13.333s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.333s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:35:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.334s]    69 |     wheelbase_ = [01;36m[Kdeclare_parameter("wheelbase")[m[K.get<double>();
+[13.334s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[13.334s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.334s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.334s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.334s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[13.334s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[13.335s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.335s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.335s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:35:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[13.335s]    69 |     wheelbase_ = [01;36m[Kdeclare_parameter("wheelbase")[m[K.get<double>();
+[13.335s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[13.335s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.335s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[13.336s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[13.336s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[13.336s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[13.336s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.336s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.336s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[13.336s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[13.336s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.337s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[13.337s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[13.337s]    69 |     wheelbase_ = declare_parameter("wheelbase").get<[01;31m[Kdouble[m[K>();
+[13.337s]       |                                                     [01;31m[K^~~~~~[m[K
+[14.008s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:[m[K In constructor ‘[01m[Kvesc_ackermann::AckermannToVesc::AckermannToVesc(const rclcpp::NodeOptions&)[m[K’:
+[14.009s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [19])[m[K’
+[14.010s]    51 |   speed_to_erpm_gain_ = [01;31m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[14.010s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.010s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.010s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.010s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.010s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.010s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[14.011s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[14.011s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.011s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.011s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:42:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.011s]    51 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[14.011s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.011s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.011s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.012s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.012s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.012s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.012s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[14.012s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[14.012s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.012s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.012s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[14.012s]    51 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[14.013s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.013s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.013s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.013s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.013s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[14.013s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[14.013s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.014s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.014s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[14.014s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[14.014s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.014s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.014s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[14.014s]    51 | _to_erpm_gain_ = declare_parameter("speed_to_erpm_gain").get<[01;31m[Kdouble[m[K>();
+[14.014s]       |                                                              [01;31m[K^~~~~~[m[K
+[14.014s] 
+[14.015s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [21])[m[K’
+[14.015s]    52 |   speed_to_erpm_offset_ = [01;31m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[14.015s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.015s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.015s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.015s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.015s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[14.015s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[14.016s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.016s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.016s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:44:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.016s]    52 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[14.016s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.016s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.016s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.017s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.017s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[14.017s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[14.017s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.017s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.017s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:44:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[14.017s]    52 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[14.017s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.018s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.018s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.018s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.018s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[14.018s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[14.018s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.018s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.019s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[14.019s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[14.019s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.019s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.019s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[14.019s]    52 | erpm_offset_ = declare_parameter("speed_to_erpm_offset").get<[01;31m[Kdouble[m[K>();
+[14.019s]       |                                                              [01;31m[K^~~~~~[m[K
+[14.019s] 
+[14.019s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [29])[m[K’
+[14.020s]    53 |   steering_to_servo_gain_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[14.020s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.020s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.020s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.020s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[14.020s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[14.020s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.021s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.021s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:46:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.021s]    53 |   steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[14.021s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.021s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.027s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.027s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.027s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[14.028s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[14.028s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.028s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.028s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:46:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[14.028s]    53 |   steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[14.028s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.028s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.029s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.029s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.029s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.029s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[14.029s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[14.029s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.031s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.031s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[14.032s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[14.032s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.032s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.032s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[14.032s]    53 | ain_ = declare_parameter("steering_angle_to_servo_gain").get<[01;31m[Kdouble[m[K>();
+[14.032s]       |                                                              [01;31m[K^~~~~~[m[K
+[14.032s] 
+[14.032s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [31])[m[K’
+[14.033s]    54 |   steering_to_servo_offset_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[14.033s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.033s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.036s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.036s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.036s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[14.036s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[14.037s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.037s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.037s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:48:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.037s]    54 |   steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[14.037s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.037s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.038s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.038s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[14.038s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[14.038s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.038s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:48:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[14.038s]    54 |   steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[14.038s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.038s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.042s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[14.042s]                  from [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[14.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[14.043s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[14.043s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[14.043s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[14.043s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[14.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.044s] [01m[K/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[14.044s]    54 | t_ = declare_parameter("steering_angle_to_servo_offset").get<[01;31m[Kdouble[m[K>();
+[14.044s]       |                                                              [01;31m[K^~~~~~[m[K
+[14.044s] 
+[15.019s] [ 71%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[15.290s] [ 71%] Built target ackermann_to_vesc_node
+[15.328s] [ 85%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[15.596s] [ 85%] Built target vesc_to_odom_node
+[20.675s] gmake[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+[20.675s] gmake[2]: *** Waiting for unfinished jobs....
+[22.319s] gmake[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:90: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+[22.320s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[22.320s] gmake: *** [Makefile:146: all] Error 2
+[22.325s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann' returned '2': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_ackermann -- -j6 -l6

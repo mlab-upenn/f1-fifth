@@ -1,0 +1,36 @@
+[  9%] Built target teleop_tools_msgs__rosidl_generator_c
+[  9%] Built target ament_cmake_python_symlink_teleop_tools_msgs
+[ 12%] Built target teleop_tools_msgs__cpp
+[35m[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_typesupport_c[0m
+[ 22%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[ 32%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[ 41%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[ 70%] Built target teleop_tools_msgs
+[ 74%] Built target teleop_tools_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_generator_py[0m
+[ 77%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+running egg_info
+writing teleop_tools_msgs.egg-info/PKG-INFO
+writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt
+writing top-level names to teleop_tools_msgs.egg-info/top_level.txt
+reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[ 77%] Built target ament_cmake_python_build_teleop_tools_msgs_egg
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__rosidl_generator_py.so[0m
+[ 80%] Built target teleop_tools_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_typesupport_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext

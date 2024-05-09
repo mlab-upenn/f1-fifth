@@ -1,0 +1,9 @@
+[0.028s] Invoking command in '/home/nvidia/f1tenth_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/realsense2_camera_msgs -- -j6 -l6
+[0.149s] failed to create symbolic link '/home/nvidia/f1tenth_ws/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/realsense2_camera_msgs' because existing path cannot be removed: Is a directory
+[0.151s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_realsense2_camera_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_realsense2_camera_msgs] Error 1
+[0.152s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_realsense2_camera_msgs.dir/all] Error 2
+[0.152s] gmake[1]: *** Waiting for unfinished jobs....
+[0.152s] [  3%] Built target realsense2_camera_msgs__cpp
+[0.153s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.157s] gmake: *** [Makefile:146: all] Error 2
+[0.162s] Invoked command in '/home/nvidia/f1tenth_ws/build/realsense2_camera_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/realsense2_camera_msgs -- -j6 -l6

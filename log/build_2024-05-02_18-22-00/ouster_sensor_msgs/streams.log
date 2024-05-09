@@ -1,0 +1,232 @@
+[0.031s] Invoking command in '/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/ouster_sensor_msgs -- -j6 -l6
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_generator_c[0m
+[0.217s] [  1%] Built target ouster_sensor_msgs__cpp
+[0.232s] [ 12%] Built target ouster_sensor_msgs__rosidl_generator_c
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_cpp[0m
+[0.281s] [ 12%] Built target ament_cmake_python_copy_ouster_sensor_msgs
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_introspection_c[0m
+[0.347s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_c[0m
+[0.352s] [ 23%] Built target ouster_sensor_msgs__rosidl_typesupport_cpp
+[0.363s] [ 34%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[0.364s] [ 45%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_cpp
+[0.389s] [ 56%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c
+[0.420s] [ 67%] Built target ouster_sensor_msgs__rosidl_typesupport_c
+[0.428s] [ 78%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c
+[0.509s] [ 78%] Built target ouster_sensor_msgs
+[0.609s] [ 80%] Built target ouster_sensor_msgs__py
+[0.667s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_generator_py[0m
+[0.714s] [ 89%] Built target ouster_sensor_msgs__rosidl_generator_py
+[0.763s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.783s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.815s] [ 92%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.815s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor_msgs__rosidl_typesupport_c__pyext[0m
+[0.821s] [ 96%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[0.849s] [100%] Built target ouster_sensor_msgs__rosidl_typesupport_c__pyext
+[1.101s] running egg_info
+[1.103s] writing ouster_sensor_msgs.egg-info/PKG-INFO
+[1.104s] writing dependency_links to ouster_sensor_msgs.egg-info/dependency_links.txt
+[1.104s] writing top-level names to ouster_sensor_msgs.egg-info/top_level.txt
+[1.110s] reading manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[1.111s] writing manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[1.196s] [100%] Built target ament_cmake_python_build_ouster_sensor_msgs_egg
+[1.611s] Invoked command in '/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/ouster_sensor_msgs -- -j6 -l6
+[2.067s] Invoking command in '/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/ouster_sensor_msgs
+[2.090s] -- Install configuration: ""
+[2.091s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_sensor_msgs
+[2.091s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[2.091s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[2.092s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.h
+[2.092s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.h
+[2.093s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[2.093s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__functions.c
+[2.093s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__functions.c
+[2.093s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.h
+[2.094s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.h
+[2.094s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.h
+[2.094s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.h
+[2.095s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.h
+[2.095s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.h
+[2.095s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__functions.h
+[2.096s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__functions.h
+[2.096s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__functions.c
+[2.096s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__functions.h
+[2.096s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.h
+[2.097s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[2.097s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.h
+[2.097s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[2.097s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.h
+[2.098s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.h
+[2.098s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__functions.h
+[2.098s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__functions.c
+[2.099s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.099s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.sh
+[2.099s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.dsv
+[2.099s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_c.so
+[2.099s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[2.100s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[2.100s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[2.100s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h
+[2.100s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h
+[2.100s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h
+[2.101s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[2.101s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.101s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[2.102s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[2.103s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.hpp
+[2.104s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__traits.hpp
+[2.107s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp
+[2.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__traits.hpp
+[2.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp
+[2.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__builder.hpp
+[2.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.hpp
+[2.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp
+[2.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__builder.hpp
+[2.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.hpp
+[2.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.hpp
+[2.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.hpp
+[2.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[2.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.hpp
+[2.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[2.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.hpp
+[2.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__builder.hpp
+[2.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__traits.hpp
+[2.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[2.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[2.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/dds_fastrtps
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.111s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/dds_fastrtps
+[2.112s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.112s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[2.112s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_c.h
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_c.h
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.c
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.c
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.c
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[2.113s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[2.114s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.c
+[2.114s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h
+[2.114s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.116s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_c.so
+[2.116s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_c.so
+[2.116s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.cpp
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.cpp
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.cpp
+[2.117s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[2.118s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[2.118s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.cpp
+[2.118s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.118s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so
+[2.118s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_cpp.so
+[2.118s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.sh
+[2.119s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.dsv
+[2.119s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info
+[2.119s] -- Installing: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/dependency_links.txt
+[2.119s] -- Installing: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/PKG-INFO
+[2.119s] -- Installing: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/SOURCES.txt
+[2.119s] -- Installing: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.12.2-py3.10.egg-info/top_level.txt
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config_s.c
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config_s.c
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config.py
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config.py
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/__init__.py
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata_s.c
+[2.120s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata.py
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/__init__.py
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg.py
+[2.121s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/__init__.py
+[2.122s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg_s.c
+[2.126s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.127s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.127s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/libouster_sensor_msgs__rosidl_generator_py.so
+[2.207s] Listing '/home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs'...
+[2.207s] Listing '/home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg'...
+[2.207s] Listing '/home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv'...
+[2.225s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.226s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.227s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.228s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_py.so
+[2.230s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.idl
+[2.230s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.idl
+[2.232s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.idl
+[2.233s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.idl
+[2.237s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.msg
+[2.237s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.srv
+[2.238s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Request.msg
+[2.238s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Response.msg
+[2.238s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.srv
+[2.238s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Request.msg
+[2.238s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Response.msg
+[2.239s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.srv
+[2.239s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Request.msg
+[2.240s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Response.msg
+[2.240s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_sensor_msgs
+[2.241s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_sensor_msgs
+[2.246s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.sh
+[2.246s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.dsv
+[2.246s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.sh
+[2.246s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.dsv
+[2.247s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.bash
+[2.247s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.sh
+[2.247s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.zsh
+[2.247s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.dsv
+[2.247s] -- Installing: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.dsv
+[2.247s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/packages/ouster_sensor_msgs
+[2.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport.cmake
+[2.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cppExport.cmake
+[2.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport.cmake
+[2.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[2.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig.cmake
+[2.251s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig-version.cmake
+[2.252s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.xml
+[2.305s] Invoked command in '/home/nvidia/f1tenth_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/ouster_sensor_msgs

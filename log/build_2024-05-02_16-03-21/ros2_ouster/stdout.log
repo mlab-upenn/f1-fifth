@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target ouster_driver_core[0m
+[  7%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/driver_types.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/ouster_driver.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/sensor_tins.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/types.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/lidar_scan.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/netcompat.cpp.o[0m

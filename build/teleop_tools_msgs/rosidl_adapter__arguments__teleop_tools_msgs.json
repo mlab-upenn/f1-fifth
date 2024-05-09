@@ -1,0 +1,6 @@
+{
+  "package_name": "teleop_tools_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs:action/Increment.action"
+  ]
+}

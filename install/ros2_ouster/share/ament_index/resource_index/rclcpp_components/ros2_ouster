@@ -1,0 +1,2 @@
+ros2_ouster::Driver;lib/libouster_driver_core.so
+ros2_ouster::TinsDriver;lib/libouster_driver_core.so

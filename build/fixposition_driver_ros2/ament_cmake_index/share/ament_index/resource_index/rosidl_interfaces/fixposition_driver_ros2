@@ -1,0 +1,8 @@
+msg/NMEA.idl
+msg/NMEA.msg
+msg/Speed.idl
+msg/Speed.msg
+msg/VRTK.idl
+msg/VRTK.msg
+msg/WheelSensor.idl
+msg/WheelSensor.msg

@@ -1,0 +1,11 @@
+setup.py
+vesc_msgs/__init__.py
+vesc_msgs.egg-info/PKG-INFO
+vesc_msgs.egg-info/SOURCES.txt
+vesc_msgs.egg-info/dependency_links.txt
+vesc_msgs.egg-info/top_level.txt
+vesc_msgs/msg/__init__.py
+vesc_msgs/msg/_vesc_imu.py
+vesc_msgs/msg/_vesc_imu_stamped.py
+vesc_msgs/msg/_vesc_state.py
+vesc_msgs/msg/_vesc_state_stamped.py

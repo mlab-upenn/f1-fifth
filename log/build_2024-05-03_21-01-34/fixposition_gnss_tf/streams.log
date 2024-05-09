@@ -1,0 +1,18 @@
+[0.079s] Invoking command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf -- -j6 -l6
+[0.295s] [100%] Built target fixposition_gnss_tf
+[0.939s] Invoked command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf -- -j6 -l6
+[1.035s] Invoking command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf
+[1.063s] -- Install configuration: "Release"
+[1.064s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include
+[1.064s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf
+[1.064s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf/gnss_tf.hpp
+[1.066s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+[1.067s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+[1.070s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets.cmake
+[1.071s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets-release.cmake
+[1.073s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf
+[1.073s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp
+[1.074s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/share/fixposition_gnss_tf/package.xml
+[1.075s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config.cmake
+[1.076s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config-version.cmake
+[1.088s] Invoked command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf

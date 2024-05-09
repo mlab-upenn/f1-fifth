@@ -1,0 +1,136 @@
+[0.025s] Invoking command in '/home/nvidia/f1tenth_ws/build/ros2_ouster': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/ros2_ouster -- -j6 -l6
+[0.083s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.413s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.429s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.588s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.590s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.089s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.159s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.264s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.298s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.521s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.530s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.533s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.032s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.255s] -- Found ouster_msgs: 0.5.1 (/home/nvidia/f1tenth_ws/install/ouster_msgs/share/ouster_msgs/cmake)
+[2.379s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.404s] -- looking for PCL_COMMON
+[2.512s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.670s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.678s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.680s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/ros2_ouster_drivers/ros2_ouster/include
+[2.680s] -- Configured cppcheck exclude dirs and/or files: 
+[2.687s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.687s] -- Configured cpplint exclude dirs and/or files: 
+[2.689s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.691s] -- Added test 'lint_cmake' to check CMake code style
+[2.693s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.700s] -- Added test 'uncrustify' to check C / C++ code style
+[2.701s] -- Configured uncrustify additional arguments: 
+[2.702s] -- Added test 'xmllint' to check XML markup files
+[2.709s] -- Configuring done
+[2.816s] -- Generating done
+[2.820s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/ros2_ouster
+[2.907s] [35m[1mConsolidate compiler generated dependencies of target ouster_driver_core[0m
+[3.020s] [  7%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/driver_types.cpp.o[0m
+[3.024s] [ 14%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/ouster_driver.cpp.o[0m
+[3.026s] [ 21%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/lifecycle_interface.cpp.o[0m
+[3.031s] [ 35%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/sensor_tins.cpp.o[0m
+[3.031s] [ 35%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/sensor.cpp.o[0m
+[3.038s] [ 42%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/client.cpp.o[0m
+[10.492s] [ 50%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/lidar_scan.cpp.o[0m
+[13.200s] [ 57%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/netcompat.cpp.o[0m
+[14.103s] [ 64%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/client/types.cpp.o[0m
+[48.664s] [ 71%] [32m[1mLinking CXX shared library libouster_driver_core.so[0m
+[49.191s] [ 71%] Built target ouster_driver_core
+[49.215s] [35m[1mConsolidate compiler generated dependencies of target ouster_tins_driver[0m
+[49.216s] [35m[1mConsolidate compiler generated dependencies of target ouster_driver[0m
+[49.280s] [ 78%] [32mBuilding CXX object CMakeFiles/ouster_tins_driver.dir/src/main_tins.cpp.o[0m
+[49.294s] [ 85%] [32mBuilding CXX object CMakeFiles/ouster_driver.dir/src/main.cpp.o[0m
+[64.611s] [ 92%] [32m[1mLinking CXX executable ouster_driver[0m
+[64.734s] [100%] [32m[1mLinking CXX executable ouster_tins_driver[0m
+[65.058s] [100%] Built target ouster_driver
+[65.199s] [100%] Built target ouster_tins_driver
+[65.229s] Invoked command in '/home/nvidia/f1tenth_ws/build/ros2_ouster' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/ros2_ouster -- -j6 -l6
+[65.335s] Invoking command in '/home/nvidia/f1tenth_ws/build/ros2_ouster': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/ros2_ouster
+[65.354s] -- Install configuration: "Release"
+[65.355s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_driver
+[65.356s] -- Set runtime path of "/home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_driver" to ""
+[65.357s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_tins_driver
+[65.357s] -- Set runtime path of "/home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_tins_driver" to ""
+[65.358s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/lib/libouster_driver_core.so
+[65.363s] -- Set runtime path of "/home/nvidia/f1tenth_ws/install/ros2_ouster/lib/libouster_driver_core.so" to ""
+[65.363s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include/
+[65.364s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster
+[65.364s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/driver_types.hpp
+[65.364s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/ringbuffer.hpp
+[65.364s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/string_utils.hpp
+[65.365s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client
+[65.365s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/viz
+[65.365s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/viz/beam_uniformity.h
+[65.366s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/viz/autoexposure.h
+[65.366s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/impl
+[65.366s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/impl/parsing.h
+[65.366s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/impl/netcompat.h
+[65.367s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/lidar_scan.h
+[65.367s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/types.h
+[65.367s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/client.h
+[65.368s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/point.h
+[65.368s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/version.h
+[65.368s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/optional-lite
+[65.369s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/optional-lite/LICENSE.txt
+[65.369s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/optional-lite/optional.hpp
+[65.369s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/sensor.hpp
+[65.369s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/ros2_utils.hpp
+[65.370s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/conversions.hpp
+[65.370s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/full_rotation_accumulator.hpp
+[65.370s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/sensor_tins.hpp
+[65.370s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors
+[65.371s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/imu_processor.hpp
+[65.371s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/scan_processor.hpp
+[65.371s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/processor_factories.hpp
+[65.371s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/pointcloud_processor.hpp
+[65.372s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/image_processor.hpp
+[65.372s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/ouster_driver.hpp
+[65.372s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces
+[65.373s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/configuration.hpp
+[65.373s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/metadata.hpp
+[65.373s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/data_processor_interface.hpp
+[65.374s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/sensor_interface.hpp
+[65.374s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/lifecycle_interface.hpp
+[65.374s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/exception.hpp
+[65.374s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/launch
+[65.375s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/launch/driver_launch.py
+[65.375s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/launch/tins_driver_launch.py
+[65.375s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params
+[65.375s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/ouster_os0128_2048_metadata.json
+[65.376s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/tins_driver_config.yaml
+[65.376s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/ouster_os0128_1024_metadata.json
+[65.376s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/driver_config.yaml
+[65.377s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/library_path.sh
+[65.377s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/library_path.dsv
+[65.377s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/package_run_dependencies/ros2_ouster
+[65.378s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/parent_prefix_path/ros2_ouster
+[65.378s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/ament_prefix_path.sh
+[65.379s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/ament_prefix_path.dsv
+[65.379s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/path.sh
+[65.379s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/path.dsv
+[65.380s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.bash
+[65.380s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.sh
+[65.381s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.zsh
+[65.381s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.dsv
+[65.381s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/package.dsv
+[65.381s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/packages/ros2_ouster
+[65.382s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/rclcpp_components/ros2_ouster
+[65.382s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.382s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ament_cmake_export_libraries-extras.cmake
+[65.382s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.382s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ros2_ousterConfig.cmake
+[65.383s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ros2_ousterConfig-version.cmake
+[65.383s] -- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/package.xml
+[65.386s] Invoked command in '/home/nvidia/f1tenth_ws/build/ros2_ouster' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/nvidia/f1tenth_ws/install/ouster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/ros2_ouster

@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target ackermann_to_vesc_node[0m
+[35m[1mConsolidate compiler generated dependencies of target vesc_ackermann[0m
+[35m[1mConsolidate compiler generated dependencies of target vesc_to_odom_node[0m
+[ 28%] Built target ackermann_to_vesc_node
+[ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[ 71%] Built target vesc_to_odom_node
+[ 85%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m

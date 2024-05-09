@@ -1,0 +1,12 @@
+[0.050s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[0.734s] [  1%] Built target vesc_msgs__cpp
+[0.734s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[0.734s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_cpp[0m
+[0.734s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[0.734s] [ 34%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.735s] failed to create symbolic link '/home/nvidia/f1tenth_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/vesc_msgs' because existing path cannot be removed: Is a directory
+[0.735s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vesc_msgs] Error 1
+[0.736s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/all] Error 2
+[0.737s] gmake[1]: *** Waiting for unfinished jobs....
+[0.738s] gmake: *** [Makefile:146: all] Error 2
+[0.761s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_msgs -- -j6 -l6

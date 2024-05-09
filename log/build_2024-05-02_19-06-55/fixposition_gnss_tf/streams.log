@@ -1,0 +1,18 @@
+[0.026s] Invoking command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf -- -j6 -l6
+[0.167s] [100%] Built target fixposition_gnss_tf
+[0.190s] Invoked command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf -- -j6 -l6
+[0.258s] Invoking command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf
+[0.275s] -- Install configuration: "Release"
+[0.276s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include
+[0.276s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf
+[0.276s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf/gnss_tf.hpp
+[0.277s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+[0.277s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+[0.279s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets.cmake
+[0.279s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets-release.cmake
+[0.279s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf
+[0.280s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp
+[0.280s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/share/fixposition_gnss_tf/package.xml
+[0.281s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config.cmake
+[0.281s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config-version.cmake
+[0.284s] Invoked command in '/home/nvidia/f1tenth_ws/build/fixposition_gnss_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/fixposition_gnss_tf

@@ -1,0 +1,87 @@
+[35m[1mConsolidate compiler generated dependencies of target ouster_driver_core[0m
+[  7%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/ouster_driver.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/driver_types.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/ouster_driver_core.dir/src/sensor_tins.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libouster_driver_core.so[0m
+[ 71%] Built target ouster_driver_core
+[ 85%] [32mBuilding CXX object CMakeFiles/ouster_tins_driver.dir/src/main_tins.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/ouster_driver.dir/src/main.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable ouster_tins_driver[0m
+[100%] [32m[1mLinking CXX executable ouster_driver[0m
+[100%] Built target ouster_tins_driver
+[100%] Built target ouster_driver
+-- Install configuration: "Release"
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_driver
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_driver" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_tins_driver
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ros2_ouster/lib/ros2_ouster/ouster_tins_driver" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/lib/libouster_driver_core.so
+-- Set runtime path of "/home/nvidia/f1tenth_ws/install/ros2_ouster/lib/libouster_driver_core.so" to ""
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include/
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/driver_types.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/ringbuffer.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/string_utils.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/viz
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/viz/beam_uniformity.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/viz/autoexposure.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/impl
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/impl/parsing.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/impl/netcompat.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/lidar_scan.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/types.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/client.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/point.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/version.h
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/optional-lite
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/optional-lite/LICENSE.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/client/optional-lite/optional.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/sensor.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/ros2_utils.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/conversions.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/full_rotation_accumulator.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/sensor_tins.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/imu_processor.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/scan_processor.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/processor_factories.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/pointcloud_processor.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/processors/image_processor.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/ouster_driver.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/configuration.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/metadata.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/data_processor_interface.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/sensor_interface.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/interfaces/lifecycle_interface.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/include//ros2_ouster/exception.hpp
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/launch
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/launch/driver_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/launch/tins_driver_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/ouster_os0128_2048_metadata.json
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/tins_driver_config.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/ouster_os0128_1024_metadata.json
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/params/driver_config.yaml
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/library_path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/library_path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/package_run_dependencies/ros2_ouster
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/parent_prefix_path/ros2_ouster
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/path.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/environment/path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.bash
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.sh
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.zsh
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/package.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/packages/ros2_ouster
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ament_index/resource_index/rclcpp_components/ros2_ouster
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ros2_ousterConfig.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/cmake/ros2_ousterConfig-version.cmake
+-- Installing: /home/nvidia/f1tenth_ws/install/ros2_ouster/share/ros2_ouster/package.xml
