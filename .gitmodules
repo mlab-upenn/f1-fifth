@@ -1,3 +1,21 @@
 [submodule "src/f1tenth_system"]
 	path = src/f1tenth_system
 	url = https://github.com/mlab-upenn/f1-fifth/blob/main/src/f1tenth_system
+[submodule "src/fixposition_driver"]
+	path = src/fixposition_driver
+	url = git@github.com:UraraKono/fixposition_driver.git
+[submodule "src/fixposition_gnss_tf"]
+	path = src/fixposition_gnss_tf
+	url = git@github.com:UraraKono/fixposition_gnss_tf.git
+[submodule "src/lidar_localization_ros2"]
+	path = src/lidar_localization_ros2
+	url = git@github.com:UraraKono/lidar_localization_ros2.git
+[submodule "src/lidarslam_ros2"]
+	path = src/lidarslam_ros2
+	url = git@github.com:UraraKono/lidarslam_ros2.git
+[submodule "src/ouster-ros"]
+	path = src/ouster-ros
+	url = git@github.com:UraraKono/ouster-ros.git
+[submodule "src/ros2_ouster_drivers"]
+	path = src/ros2_ouster_drivers
+	url = git@github.com:UraraKono/ros2_ouster_drivers.git
