@@ -1,3 +1,0 @@
-source;share/vesc_ackermann/environment/ament_prefix_path.sh
-source;share/vesc_ackermann/environment/library_path.sh
-source;share/vesc_ackermann/environment/path.sh

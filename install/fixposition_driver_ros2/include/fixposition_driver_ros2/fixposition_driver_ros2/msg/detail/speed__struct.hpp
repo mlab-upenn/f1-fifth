@@ -1,1 +1,0 @@
-/home/nvidia/f1tenth_ws/build/fixposition_driver_ros2/rosidl_generator_cpp/fixposition_driver_ros2/msg/detail/speed__struct.hpp

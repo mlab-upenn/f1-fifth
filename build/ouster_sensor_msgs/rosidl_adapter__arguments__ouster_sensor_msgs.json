@@ -1,9 +1,0 @@
-{
-  "package_name": "ouster_sensor_msgs",
-  "non_idl_tuples": [
-    "/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-sensor-msgs:msg/PacketMsg.msg",
-    "/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-sensor-msgs:srv/GetConfig.srv",
-    "/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-sensor-msgs:srv/SetConfig.srv",
-    "/home/nvidia/f1tenth_ws/src/ouster-ros/ouster-sensor-msgs:srv/GetMetadata.srv"
-  ]
-}

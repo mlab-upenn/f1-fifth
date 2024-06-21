@@ -1,9 +1,0 @@
-{
-  "package_name": "fixposition_driver_ros2",
-  "non_idl_tuples": [
-    "/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros2:msg/VRTK.msg",
-    "/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros2:msg/Speed.msg",
-    "/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros2:msg/NMEA.msg",
-    "/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros2:msg/WheelSensor.msg"
-  ]
-}

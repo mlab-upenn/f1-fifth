@@ -1,2 +1,0 @@
-Invoking command in '/home/nvidia/f1tenth_ws/build/fpl2bag': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/fixposition_utility/fpl2bag -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fpl2bag
-Invoked command in '/home/nvidia/f1tenth_ws/build/fpl2bag' returned '1': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/fixposition_utility/fpl2bag -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/fpl2bag

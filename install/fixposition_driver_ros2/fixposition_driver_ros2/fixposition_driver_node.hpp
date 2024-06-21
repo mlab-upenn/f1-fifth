@@ -1,1 +1,0 @@
-/home/nvidia/f1tenth_ws/src/fixposition_driver/fixposition_driver_ros2/include/fixposition_driver_ros2/fixposition_driver_node.hpp

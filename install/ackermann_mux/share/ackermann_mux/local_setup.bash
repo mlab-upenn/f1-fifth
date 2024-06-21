@@ -1,1 +1,0 @@
-/home/nvidia/f1tenth_ws/build/ackermann_mux/ament_cmake_environment_hooks/local_setup.bash

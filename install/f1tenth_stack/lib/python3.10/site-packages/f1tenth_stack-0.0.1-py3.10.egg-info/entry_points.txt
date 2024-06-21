@@ -1,4 +1,0 @@
-[console_scripts]
-tf_publisher = f1tenth_stack.tf_publisher:main
-throttle_interpolator = f1tenth_stack.throttle_interpolator:main
-

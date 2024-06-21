@@ -1,3 +1,0 @@
-[console_scripts]
-mouse_teleop = mouse_teleop.mouse_teleop:main
-

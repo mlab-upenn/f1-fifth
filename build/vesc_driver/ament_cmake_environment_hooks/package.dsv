@@ -1,4 +1,0 @@
-source;share/vesc_driver/local_setup.bash
-source;share/vesc_driver/local_setup.dsv
-source;share/vesc_driver/local_setup.sh
-source;share/vesc_driver/local_setup.zsh

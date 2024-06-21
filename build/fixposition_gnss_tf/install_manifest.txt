@@ -1,9 +1,0 @@
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/./include/fixposition_gnss_tf/gnss_tf.hpp
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets.cmake
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets-release.cmake
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/share/fixposition_gnss_tf/package.xml
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config.cmake
-/home/nvidia/f1tenth_ws/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config-version.cmake

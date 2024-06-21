@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -shared -Wl,-soname,libfixposition_gnss_tf.so -o libfixposition_gnss_tf.so CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o 
