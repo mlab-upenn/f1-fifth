@@ -2,6 +2,7 @@ import os
 import math
 import rclpy
 import numpy as np
+import pandas as pd
 
 from rclpy.node import Node
 from sensor_msgs.msg import Image
@@ -10,15 +11,13 @@ from vision_msgs.msg import Detection2DArray
 from ackermann_msgs.msg import AckermannDriveStamped
 from geometry_msgs.msg import PoseWithCovarianceStamped, PoseStamped, Pose
 from math import cos, asin, sqrt, pi
-
-
-"""
-Constant Definition
-"""
+from PyQt5.QtWidgets import QApplication
+from pyqtgraph.Qt import QtCore
+import pyqtgraph as pg
+import threading
 
 class PurePursuit_node(Node):
     def __init__(self):
-        # here, super().__init__(<node_name>), while the node_name should be the same as provided in launch yaml file
         super().__init__("purepursuit_node")
 
         self.declare_parameters(
@@ -39,30 +38,24 @@ class PurePursuit_node(Node):
                 ('vel_scale', 1.0),
 
                 # wp
-                ('wp_filename', "wp.csv"),
+                ('wp_filename', "wp_20240723_160002.csv"),
                 ('wp_delim', ','),
-                ('wp_skiprows', 1),
+                ('wp_skiprows', 0),
                 ('config_path', "/home/nvidia/pure_pursuit_results"),
                 ('wp_x_idx', 0),
                 ('wp_y_idx', 1),
-                ('wp_v_idx', 2),
+                ('wp_v_idx', 3),
 
                 # topics
                 ('pose_topic', '/gnss_to_local/local_position'),
-                # ('pose_topic', '/lidar_pose_topic'),
                 ('drive_topic', '/drive'),
-                ('odom_topic', '/'), #fixposition get the velocity
+                ('odom_topic', '/'),
             ])
-        
-        
+
         self.get_logger().info("purepursuit node initialized")
         self.drive_pub = self.create_publisher(AckermannDriveStamped, self.get_parameter('drive_topic').get_parameter_value().string_value, 10)
-
         self.target_pub = self.create_publisher(Point, '/pp_target', 10)
         self.pose_sub = self.create_subscription(PoseWithCovarianceStamped, self.get_parameter('pose_topic').get_parameter_value().string_value, self.pose_cb, 10)
-        # self.pose_sub = self.create_subscription(PoseWithCovarianceStamped, self.get_parameter('/lidar_pose_topic').get_parameter_value().string_value, self.pose_cb, 10)
-        # self.odom_sub = self.create_subscription(AckermannDriveStamped, self.get_parameter('odom_topic').get_parameter_value().string_value, 
-                                                #  self.odom_cb, 10)
         
         self.lane = None
         self.last_lane = 0
@@ -76,7 +69,6 @@ class PurePursuit_node(Node):
         self.maxL_corner = self.get_parameter('maxL_corner').get_parameter_value().double_value
         self.minL_corner = self.get_parameter('minL_corner').get_parameter_value().double_value
         self.interpScale = self.get_parameter('interpScale').get_parameter_value().integer_value
-
         self.maxP = self.get_parameter('maxP').get_parameter_value().double_value
         self.minP = self.get_parameter('minP').get_parameter_value().double_value
         self.maxP_corner = self.get_parameter('maxP_corner').get_parameter_value().double_value
@@ -84,24 +76,75 @@ class PurePursuit_node(Node):
         self.max_steer = self.get_parameter('max_steer').get_parameter_value().double_value
         self.kd = self.get_parameter('D').get_parameter_value().double_value
         self.vel_scale = self.get_parameter('vel_scale').get_parameter_value().double_value
+        
+        self.initial_x = None
+        self.initial_y = None
+        self.initial_z = None
 
-        self.load_wp(wp_path=os.path.join(self.get_parameter('config_path').value, self.get_parameter('wp_filename').value),
+        # Initialize PyQtGraph
+        self.app = QApplication([])
+        self.win = pg.GraphicsLayoutWidget(show=True, title="Robot Position Tracking")
+        self.plot = self.win.addPlot(title="Trajectory and Waypoints")
+        self.plot.enableAutoRange('xy', True)
+
+        self.waypoints_plot = pg.ScatterPlotItem(size=5, brush=pg.mkBrush(0, 0, 255), name="Waypoints")
+        self.trajectory_plot = pg.PlotCurveItem(pen=pg.mkPen('r', width=2), name="Trajectory")
+        self.current_location_plot = pg.ScatterPlotItem(size=10, brush=pg.mkBrush(0, 255, 0), name="Current Location")
+
+        self.plot.addItem(self.waypoints_plot)
+        self.plot.addItem(self.trajectory_plot)
+        self.plot.addItem(self.current_location_plot)
+
+        self.load_wp(wp_path=os.path.join(self.get_parameter('config_path').value, self.get_parameter('wp_filename').get_parameter_value().string_value),
                      delim=self.get_parameter('wp_delim').get_parameter_value().string_value,
                      skiprow=self.get_parameter('wp_skiprows').get_parameter_value().integer_value)
-        # self.corner_idx = np.load(self.get_parameter('config_path').get_parameter_value().string_value + '/' + self.get_parameter('wp_corner_filename').get_parameter_value().string_value)
-        # self.corner_idx = set(self.corner_idx)
 
-    def load_wp(self, wp_path:str, delim:str, skiprow:int):
+        self.points = []
+        self.current_point = []
+
+        self.update_timer = QtCore.QTimer()
+        self.update_timer.timeout.connect(self.update_plot)
+        self.update_timer.start(50)
+
+        self.legend = self.plot.addLegend()
+
+        self.legend.addItem(self.waypoints_plot, 'Waypoints')
+        self.legend.addItem(self.trajectory_plot, 'Trajectory')
+        self.legend.addItem(self.current_location_plot, 'Current Position')
+
+    def load_wp(self, wp_path: str, delim: str, skiprow: int):
         self.get_logger().info("Loading waypoints from {}".format(wp_path))
-        waypoints = np.loadtxt(wp_path, delimiter=delim, skiprows=skiprow)
-        # 3 cols: x, y, v
+        # waypoints = np.loadtxt(wp_path, delimiter=delim, skiprows=skiprow)
+        # print("waypoints loaded")
+        # print("waypoints [0]", waypoints[0])
+        
+        # if waypoints[0, 0] == 999:
+        #     self.initial_x = float(waypoints[0, 1])
+        #     self.initial_y = float(waypoints[0, 2])
+        #     self.initial_z = float(waypoints[0, 3])
+        #     print("initial x, y, and z: ", self.initial_x, self.initial_y, self.initial_z)
+        #     waypoints = waypoints[1:]
+
+        # waypoints = np.vstack((waypoints[:, self.get_parameter("wp_x_idx").get_parameter_value().integer_value], 
+        #                        waypoints[:, self.get_parameter("wp_y_idx").get_parameter_value().integer_value], 
+        #                        waypoints[:, self.get_parameter("wp_v_idx").get_parameter_value().integer_value])).T
+        # max_v = np.max(waypoints[:, 2]) * self.vel_scale
+
+        df = pd.read_csv(wp_path, delimiter=delim)
+
+        # Get initial position
+        initial_row = df.iloc[0]
+        self.initial_x = float(initial_row[0])
+        self.initial_y = float(initial_row[1])
+        self.initial_z = float(initial_row[2])
+        self.get_logger().info(f"Initial position loaded: ({self.initial_x}, {self.initial_y}, {self.initial_z})")
+
+        # Load waypoints
+        waypoints = df.iloc[1:].to_numpy()
         waypoints = np.vstack((waypoints[:, self.get_parameter("wp_x_idx").get_parameter_value().integer_value], 
                                waypoints[:, self.get_parameter("wp_y_idx").get_parameter_value().integer_value], 
                                waypoints[:, self.get_parameter("wp_v_idx").get_parameter_value().integer_value])).T
         max_v = np.max(waypoints[:, 2]) * self.vel_scale
-
-        # temporary number
-        # max_v = 8.0
 
         self.Pscale = max_v
         self.Lscale = max_v
@@ -110,24 +153,30 @@ class PurePursuit_node(Node):
         self.get_logger().info("max_v: {}".format(max_v))
         self.lane = np.expand_dims(waypoints, axis=0)
 
+        self.waypoints_plot.setData([{'pos': (wp[0], wp[1]), 'data': 1} for wp in waypoints])
+
     def pose_cb(self, pose_msg: PoseWithCovarianceStamped):
-        # cur_speed = self.curr_vel
+        if self.initial_x is None and self.initial_y is None and self.initial_z is None:
+            print("initial x,y, and z are None")
+            return
+
+        curr_x = -(pose_msg.pose.pose.position.x - self.initial_x)
+        curr_y = -(pose_msg.pose.pose.position.y - self.initial_y)
+        # print("curr_x, y: ", curr_x, curr_y)
+
+        self.points.append((curr_x, curr_y))
+        self.current_point = [(curr_x, curr_y)]
         cur_speed = 0.01
-        curr_x = pose_msg.pose.pose.position.x
-        curr_y = pose_msg.pose.pose.position.y
+        # curr_x = pose_msg.pose.pose.position.x
+        # curr_y = pose_msg.pose.pose.position.y
         curr_pos = np.array([curr_x, curr_y])
         curr_quat = pose_msg.pose.pose.orientation
         curr_yaw = math.atan2(2 * (curr_quat.w * curr_quat.z + curr_quat.x * curr_quat.y),
                               1 - 2 * (curr_quat.y ** 2 + curr_quat.z ** 2))
-        # self.get_logger().info("current orientation (degree): {}".format(curr_yaw * 180 / np.pi))
 
         curr_pos_idx = np.argmin(np.linalg.norm(self.lane[0][:, :2] - curr_pos, axis=1))
         curr_lane_nearest_idx = np.argmin(np.linalg.norm(self.lane[self.last_lane][:, :2] - curr_pos, axis=1))
 
-        # if (curr_pos_idx in self.corner_idx):
-        #     L = self.get_L_w_speed(cur_speed, corner=True)
-        # else:
-        #     L = self.get_L_w_speed(cur_speed, corner=False)
         L = self.get_L_w_speed(cur_speed, corner=False)
 
         num_lane_pts = len(self.lane[self.last_lane])
@@ -151,34 +200,26 @@ class PurePursuit_node(Node):
         pub_target_point.y = target_global[1]
         self.target_pub.publish(pub_target_point)
         target_v = v_array[i_interp]
-        # speed = target_v * self.vel_scale * 3.1
         speed = 1.0
 
         R = np.array([[np.cos(curr_yaw), np.sin(curr_yaw)],
                       [-np.sin(curr_yaw), np.cos(curr_yaw)]])
 
-        # print("yaw", curr_yaw)
-
         target_local_x, target_local_y = R @ np.array([self.target_point[0] - curr_x,
-                                           self.target_point[1] - curr_y])
+                                                       self.target_point[1] - curr_y])
         L = np.linalg.norm(curr_pos - target_global)
         gamma = 2 / L ** 2
         error = gamma * target_local_y
-        # if(segment_end in self.corner_idx):
-        #     steer = self.get_steer_w_speed(cur_speed, error, corner=True)
-        # else:
-        #     steer = self.get_steer_w_speed(cur_speed, error)
-
         steer = self.get_steer_w_speed(cur_speed, error)
 
-        self.get_logger().info("target speed: {}".format(speed))
-        
         message = AckermannDriveStamped()
         message.drive.speed = speed
         message.drive.steering_angle = steer
 
         self.drive_pub.publish(message)
-        # self.reactive_fusion_drive_pub.publish(message)
+
+        self.points.append((curr_x, curr_y))
+        self.current_point = [(curr_x, curr_y)]
 
     def odom_cb(self, odom: AckermannDriveStamped):
         self.curr_vel = odom.drive.speed
@@ -190,13 +231,6 @@ class PurePursuit_node(Node):
         else:
             interp_L_scale = (self.maxL-self.minL) / self.Lscale
             return interp_L_scale * speed + self.minL
-        
-        # if corner:
-        #     interp_L_scale = (self.maxL_corner - self.minL_corner) / self.Lscale_corner
-        #     return interp_L_scale * speed + self.minL_corner
-        # else:
-        #     interp_L_scale = (self.maxL - self.minL) / self.Lscale
-        #     return interp_L_scale * (1 / (speed + 1)) + self.minL  # Adjust this formula as needed
 
     def get_steer_w_speed(self, speed, error, corner=False):
         if corner:
@@ -213,32 +247,36 @@ class PurePursuit_node(Node):
 
         d_error = error - self.prev_steer_error
 
-        # print("error", error)
-        # print("error_d", d_error)
-        # print()
-        self.get_logger().info(f"KP: {cur_P}")
-
         self.prev_ditem = d_error
         self.prev_steer_error = error
         if corner:
             steer = cur_P * error
         else:
-            # steer = cur_P * error + self.kd * d_error
             steer = cur_P * error
-        
 
         new_steer = np.clip(steer, -self.max_steer, self.max_steer)
         return new_steer
 
-        
+    def update_plot(self):
+        # print("plot updated")
+        if self.points:
+            points_array = np.array(self.points)
+            self.trajectory_plot.setData(points_array[:, 0], points_array[:, 1])
+        if self.current_point:
+            self.current_location_plot.setData([{'pos': self.current_point[0], 'data': 1}])
 
 def main(args=None):
     rclpy.init(args=args)
     node = PurePursuit_node()
-    rclpy.spin(node)
+
+    executor_thread = threading.Thread(target=rclpy.spin, args=(node,), daemon=True)
+    executor_thread.start()
+
+    QApplication.instance().exec_()
+
     node.destroy_node()
     rclpy.shutdown()
-
+    executor_thread.join()
 
 if __name__ == "__main__":
     main()
