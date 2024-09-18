@@ -121,6 +121,8 @@ You can turn on/off by pressing a small button on the emergency sensor too.
 2. In the workspace directory (ros2_ws for example), run `colcon build --packages-up-to fixposition_driver_ros2`
 3. Run `ros2 launch fixposition_driver_ros2 tcp.launch`
 
+Of course, if the ip address has not changed and you did colcon build of fixposition previously, you only have to do the step 3.
+
 #### If you have constant stable connection to Wi-Fi from Fixposition (Not Recommended)
 1. Connect to 10.0.2.1 in the browser to see the fixposition.
 2. Make sure the GNSS is connected to active NTRIP subscription - you should see two light green circles on top right for GNSS 1 and GNSS 2.
