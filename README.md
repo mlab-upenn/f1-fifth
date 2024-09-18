@@ -10,6 +10,12 @@ We recommend flasing Jetson on SSD. Choose NVMe on SDK manager when flashing. (I
 This is the diagram of the robot.
 ![F1-5th Diagram](https://github.com/mlab-upenn/f1-fifth/raw/main/photo/F1-5th.drawio.png)
 
+6S battery gives power to Jetson, FixPosition, and Traxxas Receiver. We used three identical PDBs. 
+![6s-PDB](https://github.com/mlab-upenn/f1-fifth/blob/main/photo/6sPDB.png)
+
+6S battery and two 4S batteries can be placed in a stable matter like below.
+![Battery Placements](https://github.com/mlab-upenn/f1-fifth/blob/main/photo/BatteryPlacements.png)
+
 The BoM is [here](https://docs.google.com/spreadsheets/d/1ajliq0A3Z0W4ZdKVudvWRUUsmSORCK2iUVKaWFWbc3s/edit?usp=sharing)
 .
 
