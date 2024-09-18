@@ -19,6 +19,3 @@
 [submodule "src/ros2_ouster_drivers"]
 	path = src/ros2_ouster_drivers
 	url = git@github.com:UraraKono/ros2_ouster_drivers.git
-[submodule "src/kin_mpc"]
-	path = src/kin_mpc
-	url = https://github.com/Nooney27/kinematic_mpc.git
