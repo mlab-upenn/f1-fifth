@@ -94,8 +94,14 @@ We recommend the voltage indicator on 6S battery.
 Black cables come to the left and red cable come to the right.
 If it does not say 6 cs, try it again. You should try to insert all the pins at the same time.
 
+![Voltage Indicator](https://github.com/mlab-upenn/f1-fifth/blob/main/photo/6SVoltageIndicator.jpg)
+
 ### Emergency Switch
+![Emergency-Switch](https://github.com/mlab-upenn/f1-fifth/blob/main/photo/EmergencySwitch.jpg)
+
 On VESC, Choose ADC2 Low. Connect the sensor onto the VESC as indicated by the labels.
+
+![VESC-EmergencySwitch](https://github.com/mlab-upenn/f1-fifth/blob/main/photo/VESC-EmergencySwitch.png)
 
 1. Press ON on the remote controllers to let the car run. The emergency sensor should have red lights on.
 2. When you want to immediately stop the car, press OFF on the controllers.
