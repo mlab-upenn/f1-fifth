@@ -6,6 +6,11 @@ We are using Ubuntu 22.04, ROS2 Humble, and Jetpack 6.0.
 We tested on NVIDIA Jetson Orin Nano and Orin AGX.
 We recommend flasing Jetson on SSD. Choose NVMe on SDK manager when flashing. (I forgot which step it was but it was on the bottom right on the screen.)
 
+![F1-5th with labels](https://github.com/mlab-upenn/f1-fifth/raw/main/photo/1-5thCinnamonWithLabels.png)
+
+xLAB has other scales of robots :)
+![Comparison with other scales](https://github.com/mlab-upenn/f1-fifth/raw/main/photo/ComparisonWithOtherScales.png)
+
 ## Hardware overview of the robot
 This is the diagram of the robot.
 ![F1-5th Diagram](https://github.com/mlab-upenn/f1-fifth/raw/main/photo/F1-5th.drawio.png)
@@ -19,15 +24,15 @@ This is the diagram of the robot.
 The BoM is [here](https://docs.google.com/spreadsheets/d/1ajliq0A3Z0W4ZdKVudvWRUUsmSORCK2iUVKaWFWbc3s/edit?usp=sharing)
 .
 
-The CAD files are available [here](https://drive.google.com/drive/folders/1jq3DxIBe5UAZalOjgfDCW5-Ui6fddbNl?usp=sharing).
+The CAD files:  [the top plate](https://drive.google.com/drive/folders/16NSuNKn_89DZu-zBL3QmMm5ykGkUhXoV?usp=sharing) and [the wheel encoders](https://drive.google.com/drive/folders/1Jislswc6YMStNIIRbKHPtOXVm0wOJhdI?usp=drive_link)
 We used ¼ inch acrylic to make the base board for all the electronics.
 All the screws are M3 except Jetson (M2.5).
 
-The video to decompose the x-maxx to see the servo is [here](https://youtu.be/FIq1WbCifV4?si=iypisyhZg_OIiDQC).
+The video on how to decompose the x-maxx to see the servo is [here](https://youtu.be/FIq1WbCifV4?si=iypisyhZg_OIiDQC).
 
-The video on how to assemble the 1/5th robot is [here](https://youtu.be/yxoCi2LpZxY?si=fp9S-ktkKtcuClRA).
+The video recorded by us on how to assemble the 1/5th robot is [here](https://youtu.be/yxoCi2LpZxY?si=fp9S-ktkKtcuClRA).
 
-The video on how to connect all the cables is [here](https://youtu.be/HyVbdDyzW7Q?si=Wg5cYTExitgQ4nUt).
+The video recorded by us on how to connect all the cables is [here](https://youtu.be/HyVbdDyzW7Q?si=Wg5cYTExitgQ4nUt).
 
 For Jetson Orin nano and Jetson Orin AGX, you need to use M2.5 screws.
 To use Jetson Orin nano, use M2.5 of length 6mm from the top and M2.5 of length 8mm from the bottom to fix Jetson together with the stand offs. The longer screws needs to be used as the base plate is thick (5 or 6mm).
