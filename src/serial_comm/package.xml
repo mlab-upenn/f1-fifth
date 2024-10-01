@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>gnss_to_local</name>
+  <name>serial_comm</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="urara27.k@gmail.com">nvidia</maintainer>
+  <maintainer email="nvidia@todo.todo">nvidia</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
-  <depend>transforms3d</depend>
-  <depend>tf_transformations</depend>
-  <depend>nav_msgs</depend>  <!-- Add this line -->
+  <depend>std_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
@@ -21,4 +19,3 @@
     <build_type>ament_python</build_type>
   </export>
 </package>
-

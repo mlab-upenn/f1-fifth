@@ -85,7 +85,7 @@ class MPC(Node):
         super().__init__('mpc_node')
 
         self.real_car = True
-        self.config_path = "/home/nvidia/pure_pursuit_results"
+        self.config_path = "/home/nvidia/f1-fifth/src/trajectory_csv"
         
         self.csv = "velocity_3_with_theta.csv"
         self.map_name = os.path.join(self.config_path, self.csv)

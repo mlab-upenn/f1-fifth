@@ -85,9 +85,9 @@ class MPC(Node):
         super().__init__('mpc_node')
 
         self.real_car = True
-        self.config_path = "/home/nvidia/pure_pursuit_results"
+        self.config_path = "/home/nvidia/f1-fifth/src/trajectory_csv"
         
-        self.csv = "interpolated_trajectory_3_5.csv"
+        self.csv = "interpolated_trajectory.csv"
         self.map_name = os.path.join(self.config_path, self.csv)
         self.waypoints = np.loadtxt(self.map_name, delimiter=';', skiprows=1) 
 
@@ -128,8 +128,8 @@ class MPC(Node):
         self.gnss_speed = 0
         if self.real_car:
 
-            self.initial_x = 813.96
-            self.initial_y = 1069.968
+            self.initial_x = 810.75
+            self.initial_y = 1067.90
 
             print(f"Initial pose: {self.initial_x}, {self.initial_y}")
         """ if self.real_car:
@@ -223,7 +223,7 @@ class MPC(Node):
             vehicle_state.yaw = math.atan2(2 * (curr_quat.w * curr_quat.z + curr_quat.x * curr_quat.y),
                               1 - 2 * (curr_quat.y ** 2 + curr_quat.z ** 2))
             vehicle_state.yaw += math.pi
-            vehicle_state.yaw = np.arctan2(np.sin(vehicle_state.yaw), np.cos(vehicle_state.yaw))
+            # vehicle_state.yaw = np.arctan2(np.sin(vehicle_state.yaw), np.cos(vehicle_state.yaw))
             vehicle_state.v = self.gnss_speed
         else:
             vehicle_state.x = pose_msg.pose.pose.position.x

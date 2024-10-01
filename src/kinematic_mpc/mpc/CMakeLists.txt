@@ -52,7 +52,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
-  scripts/mpc_node.py
+  scripts/mpc_opt.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
