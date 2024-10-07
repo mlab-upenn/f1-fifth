@@ -19,3 +19,6 @@
 [submodule "src/ros2_ouster_drivers"]
 	path = src/ros2_ouster_drivers
 	url = git@github.com:UraraKono/ros2_ouster_drivers.git
+[submodule "src/f1tenth_gym_ros"]
+	path = src/f1tenth_gym_ros
+	url = git@github.com:f1tenth/f1tenth_gym_ros.git
