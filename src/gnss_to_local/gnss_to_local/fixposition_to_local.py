@@ -1,7 +1,7 @@
 import numpy as np
 from collections import namedtuple
 from nav_msgs.msg import Odometry
-from geometry_msgs.msg import PoseWithCovarianceStamped
+from geometry_msgs.msg import PoseWithCovarianceStamped, TwistWithCovarianceStamped
 import rclpy
 from rclpy.node import Node
 from tf_transformations import quaternion_matrix, quaternion_from_matrix, quaternion_multiply, quaternion_inverse, quaternion_from_euler
@@ -17,6 +17,7 @@ class FixpositionToLocal(Node):
 
         self.odom_sub = self.create_subscription(Odometry, odom_topic, self.odom_cb, 10)
         self.ekf_pub = self.create_publisher(PoseWithCovarianceStamped, posecovstmp_topic, 10)
+        self.odom_pub = self.create_publisher(Odometry, '/gnss_to_local/odometry', 10)
 
         self.declare_parameters(
             namespace='',
@@ -121,8 +122,55 @@ class FixpositionToLocal(Node):
         # Set the covariance
         pose_cov_msg.pose.covariance = msg.pose.covariance
 
+
+        # Extract linear velocities (ECEF) from odometry message
+        # ecef_vx = msg.twist.twist.linear.x
+        # ecef_vy = msg.twist.twist.linear.y
+        # ecef_vz = msg.twist.twist.linear.z
+        
+        # dont convert, will handle in inference node
+        local_vx = msg.twist.twist.linear.x
+        local_vy = msg.twist.twist.linear.y
+        local_vz = msg.twist.twist.linear.z
+
+        # Convert linear velocities (ECEF) to local ENU velocities
+        # local_vx, local_vy, local_vz, local_rotation_matrix = self.ecef_to_enu(ecef_vx, ecef_vy, ecef_vz, self.origin_lat, self.origin_lon, self.origin_alt)
+
+        # Extract angular velocities (assuming no need for conversion, depends on your setup)
+        local_angular_vx = msg.twist.twist.angular.x
+        local_angular_vy = msg.twist.twist.angular.y
+        local_angular_vz = msg.twist.twist.angular.z
+
+        # Create a TwistWithCovarianceStamped message
+        twist_cov_msg = TwistWithCovarianceStamped()
+
+        # Set the header
+        twist_cov_msg.header.frame_id = "map"
+        twist_cov_msg.header.stamp.sec = msg.header.stamp.sec
+        twist_cov_msg.header.stamp.nanosec = msg.header.stamp.nanosec
+
+        # Set the linear velocities in local frame (ENU)
+        twist_cov_msg.twist.twist.linear.x = local_vx
+        twist_cov_msg.twist.twist.linear.y = local_vy
+        twist_cov_msg.twist.twist.linear.z = local_vz
+
+        # Set the angular velocities (these might not need conversion)
+        twist_cov_msg.twist.twist.angular.x = local_angular_vx
+        twist_cov_msg.twist.twist.angular.y = local_angular_vy
+        twist_cov_msg.twist.twist.angular.z = local_angular_vz
+        twist_cov_msg.twist.twist.angular = msg.twist.twist.angular
+        # Set the covariance (use original covariance from odometry)
+        twist_cov_msg.twist.covariance = msg.twist.covariance
+
         # Publish the PoseWithCovarianceStamped message
         self.ekf_pub.publish(pose_cov_msg)
+
+        odom_msg = Odometry()
+        odom_msg.header = pose_cov_msg.header  
+        odom_msg.pose = pose_cov_msg.pose
+        odom_msg.twist = twist_cov_msg.twist
+        self.odom_pub.publish(odom_msg)
+
 
 
 def main(args=None):
