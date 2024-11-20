@@ -49,7 +49,7 @@ def nearest_point(point, trajectory):
     dots = np.empty((trajectory.shape[0]-1, ))
     for i in range(dots.shape[0]):
         dots[i] = np.dot((point - trajectory[i, :]), diffs[i, :])
-    t = dots / (l2s+0.0001)
+    t = dots / l2s
     t[t<0.0] = 0.0
     t[t>1.0] = 1.0
     projections = trajectory[:-1,:] + (t*diffs.T).T
