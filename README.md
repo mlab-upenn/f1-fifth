@@ -83,33 +83,37 @@ On Fixposition, fill out the RTK subscription account's information.
 
 ### Realsense
 #### REALSENSE SDK INSTALL ON JETSON AGX ORIN JETPACK 6.0
-- sudo apt install git cmake build-essential libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev 
-- sudo apt install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
-- git clone https://github.com/IntelRealSense/librealsense.git
-- cd librealsense
-- git checkout development
-- ./scripts/patch-realsense-ubuntu-L4T.sh
-- sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev -y v4l-utils
-- ./scripts/setup_udev_rules.sh
-- mkdir build && cd build
-- cmake .. -DBUILD_PYTHON_BINDINGS:bool=true -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=release -DFORCE_RSUSB_BACKEND=false -DBUILD_WITH_CUDA=true
-- sudo make uninstall && sudo make clean && sudo make -j4 && sudo make install
-- cd .. && sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
-- sudo udevadm control --reload-rules && sudo udevadm trigger
-- realsense-viewer
+```bash
+sudo apt install git cmake build-essential libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev 
+sudo apt install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
+git clone https://github.com/IntelRealSense/librealsense.git
+cd librealsense
+git checkout development
+./scripts/patch-realsense-ubuntu-L4T.sh
+sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev -y v4l-utils
+./scripts/setup_udev_rules.sh
+mkdir build && cd build
+cmake .. -DBUILD_PYTHON_BINDINGS:bool=true -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=release -DFORCE_RSUSB_BACKEND=false -DBUILD_WITH_CUDA=true
+sudo make uninstall && sudo make clean && sudo make -j4 && sudo make install
+cd .. && sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules && sudo udevadm trigger
+realsense-viewer
+```
 #### Install Realsense ros2 wrapper on ros2 humble:
-sudo apt install ros-humble-realsense2-*
+```sudo apt install ros-humble-realsense2-*```
 
 ### GoPro
 #### GoPro Webcam cli tool
-- sudo apt-get install v4l-utils
-- sudo apt install ffmpeg v4l2loopback-dkms curl vlc
-- git submodule update --init --recursive
-- cd src/gopro_as_webcam_on_linux
-- sudo ./install.sh
-- sudo gopro webcam
+```bash
+sudo apt-get install v4l-utils
+sudo apt install ffmpeg v4l2loopback-dkms curl vlc
+git submodule update --init --recursive
+cd src/gopro_as_webcam_on_linux
+sudo ./install.sh
+sudo gopro webcam
+```
 
-To run the GoPro as a standard webcam (i.e with zoom/opencv) you can run ```ffmpeg -nostdin -threads 1 -i 'udp://@0.0.0.0:8554?overrun_nonfatal=1&fifo_size=50000000' -f:v mpegts -fflags nobuffer -vf format=yuv420p -f v4l2 /dev/video42```
+To run the GoPro as a standard webcam (i.e with zoom/opencv) you can run `ffmpeg -nostdin -threads 1 -i 'udp://@0.0.0.0:8554?overrun_nonfatal=1&fifo_size=50000000' -f:v mpegts -fflags nobuffer -vf format=yuv420p -f v4l2 /dev/video42`
 
 ### Battery Voltage Indicator
 We recommend the voltage indicator on 6S battery.
