@@ -31,7 +31,7 @@ public:
 
     void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg)
     {
-
+        (void)pose_msg;
     }
 
     ~MPC() {}
