@@ -25,3 +25,6 @@
 [submodule "src/transport_drivers"]
 	path = src/transport_drivers
 	url = git@github.com:ros-drivers/transport_drivers.git
+[submodule "src/gopro_as_webcam_on_linux"]
+	path = src/gopro_as_webcam_on_linux
+	url = https://github.com/jschmid1/gopro_as_webcam_on_linux
