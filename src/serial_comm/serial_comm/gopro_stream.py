@@ -68,6 +68,8 @@ class GoProFFmpegNode(Node):
             # Convert raw bytes to OpenCV image
             frame = np.frombuffer(raw_frame, dtype=np.uint8).reshape((1080, 1920, 3))  # Adjust resolution as needed
             msg = self.bridge.cv2_to_imgmsg(frame, encoding="bgr8")
+            # add timestamp to image
+            msg.header.stamp = self.get_clock().now().to_msg()
             self.publisher.publish(msg)
         except Exception as e:
             self.get_logger().error(f"Error processing frame: {e}")
