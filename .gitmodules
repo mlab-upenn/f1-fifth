@@ -1,6 +1,7 @@
 [submodule "src/f1fifth_system"]
 	path = src/f1fifth_system
 	url = git@github.com:f1tenth/f1tenth_system.git
+	branch = humble-devel
 [submodule "src/fixposition_driver"]
 	path = src/fixposition_driver
-	url = git@github.com:fixposition/fixposition_driver.git
+	url = git@github.com:fixposition/fixposition_driver.gi[

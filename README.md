@@ -37,9 +37,19 @@ The video recorded by us on how to connect all the cables is [here](https://yout
 For Jetson Orin nano and Jetson Orin AGX, you need to use M2.5 screws.
 To use Jetson Orin nano, use M2.5 of length 6mm from the top and M2.5 of length 8mm from the bottom to fix Jetson together with the stand offs. The longer screws needs to be used as the base plate is thick (5 or 6mm).
 
+
+## Cloning the repository
+When cloning this repository, make sure you also clone the submodules. You can do this by running:
+
+```bash
+git submodule update --init --recursive --remote
+```
+
+This will ensure you have all the submodules cloned and updated to the configured branches.
+
 ## How to get sensors working on Cinnamon
 
-### OUSTER
+### OUSTER (!DEPRECATED!)
 We are using OUSTER OS1 LiDAR with 128 rays.
 Connect the LiDAR and its medium converter. Give 24V to the converter.
 Go to http://os-122411000631.local/ (http://os-[serial number of your OUSTER].local/) to open the sensor's configuration page.
