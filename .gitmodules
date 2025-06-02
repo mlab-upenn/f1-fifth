@@ -1,9 +1,6 @@
-[submodule "src/f1tenth_system"]
-	path = src/f1tenth_system
-	url = git@github.com:UraraKono/f1tenth_system.git
+[submodule "src/f1fifth_system"]
+	path = src/f1fifth_system
+	url = git@github.com:f1tenth/f1tenth_system.git
 [submodule "src/fixposition_driver"]
 	path = src/fixposition_driver
-	url = git@github.com:UraraKono/fixposition_driver.git
-[submodule "src/fixposition_gnss_tf"]
-	path = src/fixposition_gnss_tf
-	url = git@github.com:UraraKono/fixposition_gnss_tf.git
+	url = git@github.com:fixposition/fixposition_driver.git
