@@ -6,6 +6,14 @@ We are using Ubuntu 22.04, ROS2 Humble, and Jetpack 6.0.
 We tested on NVIDIA Jetson Orin Nano and Orin AGX.
 We recommend flasing Jetson on SSD. Choose NVMe on SDK manager when flashing. (I forgot which step it was but it was on the bottom right on the screen.)
 
+## **Cloning the Repo**
+
+We recommend cloning the repo using the following command:
+```bash
+git clone --recurse-submodules --remote-submodules git@github.com:mlab-upenn/f1-fifth.git
+```
+This will ensure that all submodules are correctly cloned and updated to their correct branches
+
 ![F1-5th with labels](https://github.com/mlab-upenn/f1-fifth/raw/main/photo/1-5thCinnamonWithLabels.png)
 
 xLAB has other scales of robots :)
